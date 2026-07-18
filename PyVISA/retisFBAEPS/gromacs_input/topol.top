@@ -1,0 +1,25 @@
+;
+; Topology for 1000 SPC/Fw flexible water molecules
+; Reference: Wu, Tepper & Voth, J. Chem. Phys. 124, 024503 (2006)
+;
+
+; ---- Force field defaults -----------------------------------------------
+; Using combination rule 2 (Lorentz-Berthelot: sigma_ij = (si+sj)/2, eps_ij = sqrt(ei*ej))
+; This is standard for SPC-family water models.
+[ defaults ]
+; nbfunc  comb-rule  gen-pairs  fudgeLJ  fudgeQQ
+    1         2        yes       0.5      0.8333
+
+; ---- Atom types ----------------------------------------------------------
+#include "./spcfw_atomtypes.itp"
+
+; ---- Molecule topology ---------------------------------------------------
+#include "./spcfw.itp"
+
+; ---- System --------------------------------------------------------------
+[ system ]
+1000 SPC/Fw water molecules
+
+[ molecules ]
+; Compound    #mols
+SOL           977

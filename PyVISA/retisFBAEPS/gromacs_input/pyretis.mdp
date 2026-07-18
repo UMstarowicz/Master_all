@@ -1,0 +1,69 @@
+; =============================================================================
+; GROMACS MDP — SPC/Fw and FBA/eps flexible water  (3-site)
+; PyRETIS NPT production runs  |  300 K, 1 bar
+; =============================================================================
+;
+; Changes from NVT setup:
+;   - ref-t        : 270 → 300 K  (was wrong in original)
+;   - pcoupl       : no  → C-rescale  (NPT, stochastic barostat)
+;   - nsteps       : 10  → 5000  (fixes fbaeps subcycle bug: 5 ps/segment)
+;   - output intervals aligned to nsteps
+; =============================================================================
+
+integrator               = md
+dt                       = 0.001          ; 1 fs — required for flexible bonds
+nsteps                   = 5000           ; 5 ps per PyRETIS sub-run
+                                          ; matches subcycles = 5000 in RST
+
+; --- Output ------------------------------------------------------------------
+; PyRETIS calls GROMACS once per subcycle; keep all intervals = nsteps
+nstxout                  = 5000
+nstvout                  = 5000
+nstenergy                = 5000
+nstlog                   = 5000
+nstxout-compressed       = 0             ; PyRETIS uses .gro/.trr, not .xtc
+nstfout                  = 0
+nstcalcenergy            = 5000
+
+; --- Constraints -------------------------------------------------------------
+; NONE — SPC/Fw and FBA/eps are fully flexible. Constraining OH bonds
+; would break the model and corrupt the order parameter.
+continuation             = yes           ; PyRETIS manages velocities
+constraint-algorithm     = lincs         ; not used, suppresses grompp warning
+constraints              = none
+
+; --- Neighbour list ----------------------------------------------------------
+cutoff-scheme            = Verlet
+
+; --- Electrostatics ----------------------------------------------------------
+coulombtype              = PME
+rcoulomb                 = 1.2
+
+; --- van der Waals -----------------------------------------------------------
+vdwtype                  = Cut-off
+rvdw                     = 1.2
+DispCorr                 = EnerPres      ; long-range dispersion + pressure corr
+
+; --- Temperature coupling ----------------------------------------------------
+; Nose-Hoover: correct NVT/NPT ensemble, time-reversible, compatible with RETIS
+tcoupl                   = Nose-Hoover
+tc-grps                  = System
+tau-t                    = 0.5           ; ps
+ref-t                    = 300.0         ; K  — 300 K target
+nhchainlength            = 1
+
+; --- Pressure coupling -------------------------------------------------------
+; C-rescale: stochastic barostat (GROMACS >= 2021).
+; Preferred over Parrinello-Rahman for PyRETIS because:
+;   - No oscillation artefacts on short (5 ps) path segments
+;   - Compatible with Nose-Hoover (unlike Berendsen for production runs)
+;   - Generates correct NPT ensemble
+pcoupl                   = C-rescale
+pcoupltype               = isotropic
+tau_p                    = 2.0           ; ps  (standard for water)
+compressibility          = 4.5e-5        ; bar^-1  (liquid water at 300 K, 1 bar)
+ref_p                    = 1.0           ; bar
+
+; --- Velocity generation -----------------------------------------------------
+; PyRETIS handles velocities via shooting moves — never regenerate here
+gen_vel                  = no
