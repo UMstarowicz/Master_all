@@ -1,0 +1,5 @@
+# Cycle: 1700, status: BWI
+#     Step              Filename       index    vel
+         0    004_6416_trajF.trr           1     -1
+         1    004_6415_trajB.trr           0      1
+         2    004_6415_trajB.trr           1      1

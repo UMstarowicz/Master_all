@@ -1,0 +1,8 @@
+# Cycle: 750, status: BWI
+#     Step              Filename       index    vel
+         0     003_972_trajF.trr           3     -1
+         1     003_972_trajF.trr           2     -1
+         2     003_972_trajF.trr           1     -1
+         3     003_971_trajB.trr           0      1
+         4     003_971_trajB.trr           1      1
+         5     003_971_trajB.trr           2      1

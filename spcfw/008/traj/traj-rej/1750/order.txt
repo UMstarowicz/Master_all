@@ -1,0 +1,5 @@
+# Cycle: 1750, status: BWI, move: ('tr', 0, 0, 0)
+#     Time       Orderp
+         0     0.112227
+         1     0.110064
+         2     0.108459

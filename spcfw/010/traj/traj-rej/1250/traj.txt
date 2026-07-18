@@ -1,0 +1,6 @@
+# Cycle: 1250, status: BTL
+#     Step              Filename       index    vel
+         0    010_5130_trajB.trr           0     -1
+         1    010_5130_trajB.trr           1     -1
+         2    010_5130_trajB.trr           2     -1
+         3    010_5130_trajB.trr           3     -1

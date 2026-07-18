@@ -1,0 +1,6 @@
+# Cycle: 950, status: FTL
+#     Step              Filename       index    vel
+         0    010_3817_trajB.trr           1     -1
+         1    010_3817_trajB.trr           0     -1
+         2    010_3818_trajF.trr           1      1
+         3    010_3818_trajF.trr           2      1

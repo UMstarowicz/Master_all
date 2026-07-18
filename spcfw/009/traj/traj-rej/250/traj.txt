@@ -1,0 +1,12 @@
+# Cycle: 250, status: FTL
+#     Step              Filename       index    vel
+         0    009_1012_trajB.trr           4     -1
+         1    009_1012_trajB.trr           3     -1
+         2    009_1012_trajB.trr           2     -1
+         3    009_1012_trajB.trr           1     -1
+         4    009_1012_trajB.trr           0     -1
+         5    009_1013_trajF.trr           1      1
+         6    009_1013_trajF.trr           2      1
+         7    009_1013_trajF.trr           3      1
+         8    009_1013_trajF.trr           4      1
+         9    009_1013_trajF.trr           5      1

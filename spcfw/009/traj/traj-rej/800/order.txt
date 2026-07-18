@@ -1,0 +1,5 @@
+# Cycle: 800, status: NCR, move: ('s-', 0, 0, 0)
+#     Time       Orderp
+         0     0.107700
+         1     0.111256
+         2     0.108384

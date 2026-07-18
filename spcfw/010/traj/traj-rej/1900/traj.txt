@@ -1,0 +1,4 @@
+# Cycle: 1900, status: BTL
+#     Step              Filename       index    vel
+         0    010_7552_trajB.trr           0     -1
+         1    010_7552_trajB.trr           1     -1

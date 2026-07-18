@@ -1,0 +1,14 @@
+# Cycle: 850, status: NCR
+#     Step              Filename       index    vel
+         0    010_3386_trajF.trr           3     -1
+         1    010_3386_trajF.trr           2     -1
+         2    010_3386_trajF.trr           1     -1
+         3    010_3385_trajB.trr           0      1
+         4    010_3385_trajB.trr           1      1
+         5    010_3385_trajB.trr           2      1
+         6    010_3385_trajB.trr           3      1
+         7    010_3385_trajB.trr           4      1
+         8    010_3385_trajB.trr           5      1
+         9    010_3385_trajB.trr           6      1
+        10    010_3385_trajB.trr           7      1
+        11    010_3385_trajB.trr           8      1
