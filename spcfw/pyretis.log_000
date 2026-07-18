@@ -1,0 +1,27 @@
+[INFO]: 
+        
+          _______                                     _______________
+         /   ___ \       _____  ____  ____________   / __        ___/
+        /_/\ \_/ /_  __  \  _ \/ __/ /_  _/ / ___/  /_/ / // // /
+           /  __  / / /  / /_)  _/    / // /\ \        / // // / __
+          / /   \ \/ /  / _  \ /__   / // /__\ \   ___/ // // /_/ /
+         /_/    _\  /  /_/ |_|___/  /_//_/_____/  /______________/
+               /___/
+        
+[INFO]: PyRETIS version: 3.0.1
+[INFO]: Start of execution: 01.04.2026 17:16:45
+[INFO]: Python version: 3.12.3
+[INFO]: Running in directory: /home/ula/pyretis_run/project_masters/retis_spcfw
+[INFO]: Input file: retis.rst
+[INFO]: Log file: pyretis.log
+[INFO]: Exit file found - Remove it before to execute PyRETIS.
+[INFO]: End of PyRETIS execution: 01.04.2026 17:16:45
+[INFO]: PyRETIS references:
+        -------------------
+        [1] A. Lervik, E. Riccardi and T. S. van Erp, J. Comput. Chem., 2017
+            doi: https://dx.doi.org/10.1002/jcc.24900
+        [2] E. Riccardi, A. Lervik, S. Roet, O. Aarøen and T. S. van Erp,
+            J. Comput. Chem., 2019, doi: https://dx.doi.org/10.1002/jcc.26112
+        [3] W. Vervust, D. T. Zhang, A. Ghysels, S. Roet, T. S. van Erp, E. Riccardi,
+            J. Comput. Chem. 2024, 1. https://doi.org/10.1002/jcc.27319
+[INFO]: http://www.pyretis.org

@@ -1,0 +1,18 @@
+; atomtypes for SPC/Fw water
+; Reference: Wu, Tepper & Voth, J. Chem. Phys. 124, 024503 (2006)
+;
+; LJ parameters for O:
+;   sigma   = 3.165492 Angstrom = 0.3165492 nm
+;   epsilon = 0.1554253 kcal/mol = 0.6503 kJ/mol
+;
+; H atoms carry no LJ interactions.
+;
+; GROMACS uses sigma/epsilon (not C6/C12) with combination rule 2 (Lorentz-Berthelot)
+; which is set in the [ defaults ] section of forcefield.itp:
+;   [ defaults ]
+;   1  2  yes  0.5  0.8333
+
+[ atomtypes ]
+; name  at.num  mass      charge  ptype  sigma(nm)    epsilon(kJ/mol)
+OW_spcfw   8   15.99940  -0.82   A      0.31655      0.65020
+HW_spcfw   1    1.00800   0.41   A      0.00000      0.00000

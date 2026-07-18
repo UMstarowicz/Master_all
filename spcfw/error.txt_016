@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisanalyse.py", line 238, in main
+    results = run_analysis(settings)
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/analysisio/analysisio.py", line 115, in run_analysis
+    return runner(settings, plotter, txt_plotter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/analysisio/analysisio.py", line 387, in run_retis_analysis
+    rate, rate_error = retis_rate(out['prob'], out['relerror'],
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/analysis/path_analysis.py", line 953, in retis_rate
+    rate = pcross * flux
+           ~~~~~~~^~~~~~
+TypeError: unsupported operand type(s) for *: 'float' and 'NoneType'

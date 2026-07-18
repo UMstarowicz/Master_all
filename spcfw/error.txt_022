@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisanalyse.py", line 240, in main
+    for outfile in create_reports(settings, results, report_dir):
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisanalyse.py", line 195, in create_reports
+    report, ext = generate_report(task, analysis_results,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/report/report.py", line 242, in generate_report
+    generated = generator(analysis_results, output=output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/report/report_path.py", line 159, in generate_report_retis
+    if result is None or (isinstance(result, dict) and not result):
+       ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value

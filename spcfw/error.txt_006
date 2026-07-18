@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisanalyse.py", line 238, in main
+    results = run_analysis(settings)
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/analysisio/analysisio.py", line 115, in run_analysis
+    return runner(settings, plotter, txt_plotter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/analysisio/analysisio.py", line 358, in run_retis_analysis
+    result = run_analysis_files(sett, files, plotter, txt_plotter)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/analysisio/analysisio.py", line 618, in run_analysis_files
+    txt_file = output_results(file_type, txt_plotter, result, raw_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/analysisio/analysisio.py", line 704, in output_results
+    return plotter.output_path(result, rawdata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/plotting/txt_plotting.py", line 266, in output_path
+    [results['pathlength'][0], results['pathlength'][1]],
+     ~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'pathlength'

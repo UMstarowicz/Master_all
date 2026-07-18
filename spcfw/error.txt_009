@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisanalyse.py", line 238, in main
+    results = run_analysis(settings)
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/analysisio/analysisio.py", line 115, in run_analysis
+    return runner(settings, plotter, txt_plotter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/analysisio/analysisio.py", line 360, in run_retis_analysis
+    report_txt = generate_report('retis0', result, output='txt')[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/report/report.py", line 242, in generate_report
+    generated = generator(analysis_results, output=output)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/report/report_path.py", line 277, in generate_report_retis0
+    flux = result['out']['fluxlength']
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable

@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisanalyse.py", line 238, in main
+    results = run_analysis(settings)
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/analysisio/analysisio.py", line 115, in run_analysis
+    return runner(settings, plotter, txt_plotter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/analysisio/analysisio.py", line 358, in run_retis_analysis
+    result = run_analysis_files(sett, files, plotter, txt_plotter)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/analysisio/analysisio.py", line 615, in run_analysis_files
+    result, raw_data = analyse_file(file_type, file_name, settings)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/analysisio/analysisio.py", line 753, in analyse_file
+    results = function(raw_data, settings)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/analysis/path_analysis.py", line 276, in analyse_path_ensemble
+    return analyse_path_ensemble0(path_ensemble, settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/analysis/path_analysis.py", line 536, in analyse_path_ensemble0
+    assert nacc != 0, f'No accepted paths to analyse in ensemble {ens_number}'
+           ^^^^^^^^^
+AssertionError: No accepted paths to analyse in ensemble 0

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisanalyse.py", line 238, in main
+    results = run_analysis(settings)
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/analysisio/analysisio.py", line 115, in run_analysis
+    return runner(settings, plotter, txt_plotter)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/analysisio/analysisio.py", line 394, in run_retis_analysis
+    xi, tau, perm, xi_err, tau_err, perm_err = perm_calculations(
+                                               ^^^^^^^^^^^^^^^^^^
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/analysis/path_analysis.py", line 991, in perm_calculations
+    permeability = out.get("permeability", False)
+                   ^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
