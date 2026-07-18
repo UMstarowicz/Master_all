@@ -1,0 +1,4 @@
+# Cycle: 300, status: BTS, move: ('s+', 0, 0, 0)
+#     Time      Potential        Kinetic
+         0  -44034.464844   10225.708008
+         1  -44348.050781   13007.707031

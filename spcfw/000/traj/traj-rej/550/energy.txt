@@ -1,0 +1,3 @@
+# Cycle: 550, status: KOB, move: ('sh', 0.10439348638684298, 4, 0)
+#     Time      Potential        Kinetic
+         0  -53444.769531   11371.936523

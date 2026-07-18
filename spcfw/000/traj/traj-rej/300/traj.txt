@@ -1,0 +1,4 @@
+# Cycle: 300, status: BTS
+#     Step              Filename       index    vel
+         0    001_1198_trajB.trr           1     -1
+         1            second.gro           0     -1
