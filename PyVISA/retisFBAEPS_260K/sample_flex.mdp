@@ -1,0 +1,60 @@
+; GROMACS .mdp parameters for SPC/Fw flexible water
+; Adapted for PyRETIS: short runs, NVT or NPT as needed.
+;
+; KEY DIFFERENCES from the original TIP4P/rigid setup:
+;   - constraints     = none   (SPC/Fw is fully flexible – must not constrain OH bonds)
+;   - dt              = 0.001  (1 fs; flexible bonds need shorter timestep than 2 fs)
+;   - removed lincs settings  (no constraints → lincs irrelevant)
+;   - continuation    = yes    (PyRETIS restarts from checkpoint each sub-run)
+
+integrator               = md
+dt                       = 0.001
+nsteps                   = 500000
+
+; --- Output (PyRETIS controls these via subcycles; keep intervals >= nsteps) ---
+nstxout                  = 500
+nstvout                  = 500
+nstenergy                = 10
+nstlog                   = 10
+nstxout-compressed       = 0
+
+; --- Constraints ----------------------------------------------------------
+; NONE for flexible water model
+continuation             = no
+constraint-algorithm     = lincs       ; not used, but avoids grompp warning
+constraints              = none        ; <-- critical for SPC/Fw
+
+; --- Neighbour list -------------------------------------------------------
+cutoff-scheme            = Verlet
+
+; --- Electrostatics -------------------------------------------------------
+coulombtype              = PME
+rcoulomb                 = 1.2
+
+; --- van der Waals --------------------------------------------------------
+vdwtype                  = Cut-off
+rvdw                     = 1.2
+DispCorr                 = EnerPres    ; long-range dispersion correction
+
+; --- Temperature coupling -------------------------------------------------
+tcoupl                   = Nose-Hoover
+tc-grps                  = System
+tau-t                    = 0.5         ; ps  (tighter than original; 1000 bar system)
+ref-t                    = 300.0       ; K   – adjust to your target temperature
+nhchainlength            = 1
+
+; --- Pressure coupling ----------------------------------------------------
+; Set pcoupl = no for NVT runs (e.g. shooting moves).
+; For equilibration (NPT), uncomment the block below.
+pcoupl = no
+;pcoupltype               = isotropic
+;tau_p                    = 2.0
+;compressibility          = 4.5e-5
+;ref_p                    = 1000.0      ; bar – your original pressure; change if needed
+
+; --- Velocity generation --------------------------------------------------
+; gen_vel = no when continuation = yes (PyRETIS handles velocities itself)
+gen_vel                  = yes
+gen-temp = 300.0
+nstfout = 0
+nstcalcenergy = 10

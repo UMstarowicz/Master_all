@@ -1,0 +1,25 @@
+# This file was created Tue Apr 21 22:43:57 2026
+# Created by:
+#                      :-) GROMACS - gmx energy, 2024.3 (-:
+# 
+# Executable:   /usr/local/gromacs_gpu/bin/gmx
+# Data prefix:  /usr/local/gromacs_gpu
+# Working dir:  /home/ula/pyretis_run/project_masters/retis_load_kick/gromacs_input
+# Command line:
+#   gmx energy -f npt_beren.edr -o density_beren.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Giant Rising Ordinary Mutants for A Clerical Setup
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kg/m^3)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Density"
+    0.000000  1276.890869

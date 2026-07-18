@@ -1,0 +1,10 @@
+; Atom types for FBA/epsilon flexible water model
+; Fuentes-Azcatl & Barbosa, J. Mol. Liquids (2020)
+; DOI: 10.1016/j.molliq.2020.112598
+; Table 1: sigma=3.1776 Ang, epsilon=0.792324 kJ/mol
+; Charges: qO=-0.8450, qH=+0.4225
+
+[ atomtypes ]
+; name  at.num  mass      charge   ptype  sigma(nm)    epsilon(kJ/mol)
+OW_spcfw   8   15.99940  -0.8450  A      0.31776      0.792324
+HW_spcfw   1    1.00800   0.4225  A      0.00000      0.00000

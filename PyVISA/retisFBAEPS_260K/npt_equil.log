@@ -1,0 +1,1370 @@
+                      :-) GROMACS - gmx mdrun, 2024.3 (-:
+
+Copyright 1991-2024 The GROMACS Authors.
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+                         Current GROMACS contributors:
+       Mark Abraham           Andrey Alekseenko           Vladimir Basov      
+      Cathrine Bergh            Eliane Briand               Ania Brown        
+      Mahesh Doijade            Giacomo Fiorin          Stefan Fleischmann    
+      Sergey Gorelov         Gilles Gouaillardet            Alan Gray         
+     M. Eric Irrgang         Farzaneh Jalalypour            Joe Jordan        
+     Carsten Kutzner           Justin A. Lemkul          Magnus Lundborg      
+       Pascal Merz              Vedran Miletic            Dmitry Morozov      
+       Julien Nabet              Szilard Pall        Andrea Pasquadibisceglie 
+    Michele Pellegrino          Hubert Santuz             Roland Schulz       
+     Tatiana Shugaeva          Alexey Shvetsov            Philip Turner       
+     Alessandra Villa      Sebastian Wingbermuehle  
+
+                         Previous GROMACS contributors:
+        Emile Apol             Rossen Apostolov           James Barnett       
+        Paul Bauer          Herman J.C. Berendsen          Par Bjelkmar       
+      Christian Blau          Viacheslav Bolnykh            Kevin Boyd        
+    Aldert van Buuren          Carlo Camilloni           Rudi van Drunen      
+      Anton Feenstra           Oliver Fleetwood            Vytas Gapsys       
+       Gaurav Garg             Gerrit Groenhof            Bert de Groot       
+      Anca Hamuraru           Vincent Hindriksen          Victor Holanda      
+     Aleksei Iupinov          Christoph Junghans        Prashanth Kanduri     
+   Dimitrios Karkoulis           Peter Kasson             Sebastian Kehl      
+     Sebastian Keller             Jiri Kraus               Per Larsson        
+      Viveca Lindahl            Erik Marklund           Pieter Meulenhoff     
+      Teemu Murtola              Sander Pronk             Michael Shirts      
+      Alfons Sijbers            Balint Soproni         David van der Spoel    
+      Peter Tieleman            Carsten Uphoff             Jon Vincent        
+     Teemu Virolainen         Christian Wennberg           Maarten Wolf       
+      Artem Zhmurov       
+
+                  Coordinated by the GROMACS project leaders:
+                           Berk Hess and Erik Lindahl
+
+GROMACS:      gmx mdrun, version 2024.3
+Executable:   /usr/local/gromacs_gpu/bin/gmx
+Data prefix:  /usr/local/gromacs_gpu
+Working dir:  /home/ula/pyretis_run/project_masters/retis_load_kick/gromacs_input
+Process ID:   4074916
+Command line:
+  gmx mdrun -v -deffnm npt_equil -ntmpi 1 -ntomp 8 -nb gpu
+
+GROMACS version:     2024.3
+Precision:           mixed
+Memory model:        64 bit
+MPI library:         thread_mpi
+OpenMP support:      enabled (GMX_OPENMP_MAX_THREADS = 128)
+GPU support:         CUDA
+NBNxM GPU setup:     super-cluster 2x2x2 / cluster 8
+SIMD instructions:   AVX2_256
+CPU FFT library:     fftw-3.3.8-sse2-avx-avx2-avx2_128
+GPU FFT library:     cuFFT
+Multi-GPU FFT:       none
+RDTSCP usage:        enabled
+TNG support:         enabled
+Hwloc support:       disabled
+Tracing support:     disabled
+C compiler:          /usr/bin/gcc-12 GNU 12.4.0
+C compiler flags:    -fexcess-precision=fast -funroll-all-loops -mavx2 -mfma -Wno-missing-field-initializers -O3 -DNDEBUG
+C++ compiler:        /usr/bin/g++-12 GNU 12.4.0
+C++ compiler flags:  -fexcess-precision=fast -funroll-all-loops -mavx2 -mfma -Wno-missing-field-initializers -Wno-cast-function-type-strict SHELL:-fopenmp -O3 -DNDEBUG
+BLAS library:        External - detected on the system
+LAPACK library:      External - detected on the system
+CUDA compiler:       /usr/bin/nvcc nvcc: NVIDIA (R) Cuda compiler driver;Copyright (c) 2005-2023 NVIDIA Corporation;Built on Fri_Jan__6_16:45:21_PST_2023;Cuda compilation tools, release 12.0, V12.0.140;Build cuda_12.0.r12.0/compiler.32267302_0
+CUDA compiler flags:-std=c++17;--generate-code=arch=compute_50,code=sm_50;--generate-code=arch=compute_52,code=sm_52;--generate-code=arch=compute_60,code=sm_60;--generate-code=arch=compute_61,code=sm_61;--generate-code=arch=compute_70,code=sm_70;--generate-code=arch=compute_75,code=sm_75;--generate-code=arch=compute_80,code=sm_80;--generate-code=arch=compute_86,code=sm_86;--generate-code=arch=compute_89,code=sm_89;--generate-code=arch=compute_90,code=sm_90;-Wno-deprecated-gpu-targets;--generate-code=arch=compute_53,code=sm_53;--generate-code=arch=compute_80,code=sm_80;-use_fast_math;-Xptxas;-warn-double-usage;-Xptxas;-Werror;-D_FORCE_INLINES;-Xcompiler;-fopenmp;-fexcess-precision=fast -funroll-all-loops -mavx2 -mfma -Wno-missing-field-initializers -Wno-cast-function-type-strict SHELL:-fopenmp -O3 -DNDEBUG
+CUDA driver:         13.10
+CUDA runtime:        12.0
+
+
+Running on 1 node with total 8 cores, 16 processing units, 1 compatible GPU
+Hardware detected on host Saigiera:
+  CPU info:
+    Vendor: Intel
+    Brand:  Intel(R) Core(TM) i7-10700F CPU @ 2.90GHz
+    Family: 6   Model: 165   Stepping: 5
+    Features: aes apic avx avx2 clfsh cmov cx8 cx16 f16c fma htt intel lahf mmx msr pcid pclmuldq pdcm pdpe1gb popcnt pse rdrnd rdtscp sse2 sse3 sse4.1 sse4.2 ssse3 x2apic
+  Hardware topology: Basic
+    Packages, cores, and logical processors:
+    [indices refer to OS logical processors]
+      Package  0: [   0   1] [   2   3] [   4   5] [   6   7] [   8   9] [  10  11] [  12  13] [  14  15]
+    CPU limit set by OS: -1   Recommended max number of threads: 16
+  GPU info:
+    Number of GPUs detected: 1
+    #0: NVIDIA NVIDIA GeForce RTX 2070 SUPER, compute cap.: 7.5, ECC:  no, stat: compatible
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+M. J. Abraham, T. Murtola, R. Schulz, S. Páll, J. C. Smith, B. Hess, E.
+Lindahl
+GROMACS: High performance molecular simulations through multi-level
+parallelism from laptops to supercomputers
+SoftwareX 1 (2015) pp. 19-25
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+S. Páll, M. J. Abraham, C. Kutzner, B. Hess, E. Lindahl
+Tackling Exascale Software Challenges in Molecular Dynamics Simulations with
+GROMACS
+In S. Markidis & E. Laure (Eds.), Solving Software Challenges for Exascale 8759 (2015) pp. 3-27
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+S. Pronk, S. Páll, R. Schulz, P. Larsson, P. Bjelkmar, R. Apostolov, M. R.
+Shirts, J. C. Smith, P. M. Kasson, D. van der Spoel, B. Hess, and E. Lindahl
+GROMACS 4.5: a high-throughput and highly parallel open source molecular
+simulation toolkit
+Bioinformatics 29 (2013) pp. 845-54
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+B. Hess and C. Kutzner and D. van der Spoel and E. Lindahl
+GROMACS 4: Algorithms for highly efficient, load-balanced, and scalable
+molecular simulation
+J. Chem. Theory Comput. 4 (2008) pp. 435-447
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+D. van der Spoel, E. Lindahl, B. Hess, G. Groenhof, A. E. Mark and H. J. C.
+Berendsen
+GROMACS: Fast, Flexible and Free
+J. Comp. Chem. 26 (2005) pp. 1701-1719
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+E. Lindahl and B. Hess and D. van der Spoel
+GROMACS 3.0: A package for molecular simulation and trajectory analysis
+J. Mol. Mod. 7 (2001) pp. 306-317
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+H. J. C. Berendsen, D. van der Spoel and R. van Drunen
+GROMACS: A message-passing parallel molecular dynamics implementation
+Comp. Phys. Comm. 91 (1995) pp. 43-56
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE CITE THE DOI FOR THIS VERSION OF GROMACS ++++
+https://doi.org/10.5281/zenodo.13456374
+-------- -------- --- Thank You --- -------- --------
+
+Input Parameters:
+   integrator                     = md
+   tinit                          = 0
+   dt                             = 0.001
+   nsteps                         = 500000
+   init-step                      = 0
+   simulation-part                = 1
+   mts                            = false
+   mass-repartition-factor        = 1
+   comm-mode                      = Linear
+   nstcomm                        = 100
+   bd-fric                        = 0
+   ld-seed                        = -270854
+   emtol                          = 10
+   emstep                         = 0.01
+   niter                          = 20
+   fcstep                         = 0
+   nstcgsteep                     = 1000
+   nbfgscorr                      = 10
+   rtpi                           = 0.05
+   nstxout                        = 1000
+   nstvout                        = 1000
+   nstfout                        = 0
+   nstlog                         = 100
+   nstcalcenergy                  = 100
+   nstenergy                      = 100
+   nstxout-compressed             = 0
+   compressed-x-precision         = 1000
+   cutoff-scheme                  = Verlet
+   nstlist                        = 10
+   pbc                            = xyz
+   periodic-molecules             = false
+   verlet-buffer-tolerance        = 0.005
+   verlet-buffer-pressure-tolerance = 0.5
+   rlist                          = 1.2
+   coulombtype                    = PME
+   coulomb-modifier               = Potential-shift
+   rcoulomb-switch                = 0
+   rcoulomb                       = 1.2
+   epsilon-r                      = 1
+   epsilon-rf                     = inf
+   vdw-type                       = Cut-off
+   vdw-modifier                   = Potential-shift
+   rvdw-switch                    = 0
+   rvdw                           = 1.2
+   DispCorr                       = EnerPres
+   table-extension                = 1
+   fourierspacing                 = 0.12
+   fourier-nx                     = 28
+   fourier-ny                     = 28
+   fourier-nz                     = 28
+   pme-order                      = 4
+   ewald-rtol                     = 1e-05
+   ewald-rtol-lj                  = 0.001
+   lj-pme-comb-rule               = Geometric
+   ewald-geometry                 = 3d
+   epsilon-surface                = 0
+   ensemble-temperature-setting   = constant
+   ensemble-temperature           = 300
+   tcoupl                         = Nose-Hoover
+   nsttcouple                     = 25
+   nh-chain-length                = 1
+   print-nose-hoover-chain-variables = false
+   pcoupl                         = Parrinello-Rahman
+   pcoupltype                     = Isotropic
+   nstpcouple                     = 100
+   tau-p                          = 2
+   compressibility (3x3):
+      compressibility[    0]={ 4.50000e-05,  0.00000e+00,  0.00000e+00}
+      compressibility[    1]={ 0.00000e+00,  4.50000e-05,  0.00000e+00}
+      compressibility[    2]={ 0.00000e+00,  0.00000e+00,  4.50000e-05}
+   ref-p (3x3):
+      ref-p[    0]={ 1.00000e+00,  0.00000e+00,  0.00000e+00}
+      ref-p[    1]={ 0.00000e+00,  1.00000e+00,  0.00000e+00}
+      ref-p[    2]={ 0.00000e+00,  0.00000e+00,  1.00000e+00}
+   refcoord-scaling               = No
+   posres-com (3):
+      posres-com[0]= 0.00000e+00
+      posres-com[1]= 0.00000e+00
+      posres-com[2]= 0.00000e+00
+   posres-comB (3):
+      posres-comB[0]= 0.00000e+00
+      posres-comB[1]= 0.00000e+00
+      posres-comB[2]= 0.00000e+00
+   QMMM                           = false
+qm-opts:
+   ngQM                           = 0
+   constraint-algorithm           = Lincs
+   continuation                   = true
+   Shake-SOR                      = false
+   shake-tol                      = 0.0001
+   lincs-order                    = 4
+   lincs-iter                     = 1
+   lincs-warnangle                = 30
+   nwall                          = 0
+   wall-type                      = 9-3
+   wall-r-linpot                  = -1
+   wall-atomtype[0]               = -1
+   wall-atomtype[1]               = -1
+   wall-density[0]                = 0
+   wall-density[1]                = 0
+   wall-ewald-zfac                = 3
+   pull                           = false
+   awh                            = false
+   rotation                       = false
+   interactiveMD                  = false
+   disre                          = No
+   disre-weighting                = Conservative
+   disre-mixed                    = false
+   dr-fc                          = 1000
+   dr-tau                         = 0
+   nstdisreout                    = 100
+   orire-fc                       = 0
+   orire-tau                      = 0
+   nstorireout                    = 100
+   free-energy                    = no
+   cos-acceleration               = 0
+   deform (3x3):
+      deform[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+      deform[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+      deform[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   simulated-tempering            = false
+   swapcoords                     = no
+   userint1                       = 0
+   userint2                       = 0
+   userint3                       = 0
+   userint4                       = 0
+   userreal1                      = 0
+   userreal2                      = 0
+   userreal3                      = 0
+   userreal4                      = 0
+   applied-forces:
+     electric-field:
+       x:
+         E0                       = 0
+         omega                    = 0
+         t0                       = 0
+         sigma                    = 0
+       y:
+         E0                       = 0
+         omega                    = 0
+         t0                       = 0
+         sigma                    = 0
+       z:
+         E0                       = 0
+         omega                    = 0
+         t0                       = 0
+         sigma                    = 0
+     density-guided-simulation:
+       active                     = false
+       group                      = protein
+       similarity-measure         = inner-product
+       atom-spreading-weight      = unity
+       force-constant             = 1e+09
+       gaussian-transform-spreading-width = 0.2
+       gaussian-transform-spreading-range-in-multiples-of-width = 4
+       reference-density-filename = reference.mrc
+       nst                        = 1
+       normalize-densities        = true
+       adaptive-force-scaling     = false
+       adaptive-force-scaling-time-constant = 4
+       shift-vector               = 
+       transformation-matrix      = 
+     qmmm-cp2k:
+       active                     = false
+       qmgroup                    = System
+       qmmethod                   = PBE
+       qmfilenames                = 
+       qmcharge                   = 0
+       qmmultiplicity             = 1
+     colvars:
+       active                     = false
+       configfile                 = 
+       seed                       = -1
+grpopts:
+   nrdf:        8790
+   ref-t:         300
+   tau-t:         0.5
+annealing:          No
+annealing-npoints:           0
+   acc:	           0           0           0
+   nfreeze:           N           N           N
+   energygrp-flags[  0]: 0
+
+Changing nstlist from 10 to 50, rlist from 1.2 to 1.295
+
+When checking whether update groups are usable:
+  Domain decomposition is not active, so there is no need for update groups
+  No constraints or virtual sites are in use, so it is best not to use update groups
+
+Update task can not run on the GPU, because the following condition(s) were not satisfied:
+
+Nose-Hoover temperature coupling is not supported.
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the CPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 8 OpenMP threads 
+
+System total charge: 0.000
+Will do PME sum in reciprocal space for electrostatic interactions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+U. Essmann, L. Perera, M. L. Berkowitz, T. Darden, H. Lee and L. G. Pedersen 
+A smooth particle mesh Ewald method
+J. Chem. Phys. 103 (1995) pp. 8577-8592
+-------- -------- --- Thank You --- -------- --------
+
+Using a Gaussian width (1/beta) of 0.384195 nm for Ewald
+Potential shift: LJ r^-12: -1.122e-01 r^-6: -3.349e-01, Ewald -8.333e-06
+Initialized non-bonded Coulomb Ewald tables, spacing: 1.02e-03 size: 1176
+
+Long Range LJ corr.: <C6> 2.9075e-04
+
+
+Using GPU 8x8 nonbonded short-range kernels
+
+Using a dual 8x8 pair-list setup updated with dynamic, rolling pruning:
+  outer list: updated every 50 steps, buffer 0.095 nm, rlist 1.295 nm
+  inner list: updated every 14 steps, buffer 0.003 nm, rlist 1.203 nm
+At tolerance 0.005 kJ/mol/ps per atom, equivalent classical 1x1 list would be:
+  outer list: updated every 50 steps, buffer 0.195 nm, rlist 1.395 nm
+  inner list: updated every 14 steps, buffer 0.035 nm, rlist 1.235 nm
+
+The average pressure is off by at most 0.06 bar due to missing LJ interactions
+
+Using Geometric Lennard-Jones combination rule
+
+NOTE: The number of threads is not equal to the number of (logical) cpus
+      and the -pin option is set to auto: will not pin threads to cpus.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+There are: 2931 Atoms
+Center of mass motion removal mode is Linear
+We have the following groups for center of mass motion removal:
+  0:  rest
+
+Started mdrun on rank 0 Tue Apr 21 22:38:26 2026
+
+           Step           Time
+              0        0.00000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    3.81873e+03    1.84996e+03    9.06491e+03   -2.03098e+02   -5.48727e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    1.14790e+02   -4.02275e+04    1.09732e+04   -2.92543e+04   -2.92525e+04
+    Temperature Pres. DC (bar) Pressure (bar)
+    3.00289e+02   -1.13285e+02    2.17523e+02
+
+           Step           Time
+            100        0.10000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    3.54804e+03    1.72905e+03    9.01125e+03   -2.02902e+02   -5.46287e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    1.08544e+02   -4.04347e+04    1.09707e+04   -2.94640e+04   -2.93251e+04
+    Temperature Pres. DC (bar) Pressure (bar)
+    3.00222e+02   -1.13068e+02    2.22010e+03
+
+           Step           Time
+            200        0.20000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    3.23956e+03    1.75880e+03    9.08677e+03   -2.00722e+02   -5.40008e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    1.13692e+02   -4.00027e+04    1.08806e+04   -2.91221e+04   -2.90315e+04
+    Temperature Pres. DC (bar) Pressure (bar)
+    2.97754e+02   -1.10652e+02    1.25903e+04
+
+
+Step 201 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+            300        0.30000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    3.63178e+03    1.60904e+03    7.40836e+03   -1.87900e+02   -5.03321e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    9.63789e+01   -3.77744e+04    9.96218e+03   -2.78122e+04   -2.25681e+04
+    Temperature Pres. DC (bar) Pressure (bar)
+    2.72622e+02   -9.69766e+01    5.70600e+04
+
+
+Step 301 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+            400        0.40000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    2.57686e+03    1.25077e+03    5.18204e+02   -1.38767e+02   -4.18686e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    9.12181e+01   -3.75704e+04    1.85538e+04   -1.90165e+04    3.66406e+05
+    Temperature Pres. DC (bar) Pressure (bar)
+    5.07739e+02   -5.29199e+01   -2.59029e+04
+
+
+Step 401 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+            500        0.50000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    7.67248e+03    1.18608e+03   -4.76979e+02   -1.17261e+02   -3.75695e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    1.02252e+02   -2.92029e+04    4.33233e+04    1.41204e+04    1.13219e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.18557e+03   -3.78020e+01   -4.61709e+04
+
+
+Step 501 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+            600        0.60000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    4.81283e+03    1.20715e+03    6.56764e+02   -1.22269e+02   -4.04504e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    1.04632e+02   -3.37913e+04    2.23579e+04   -1.14334e+04    1.55703e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    6.11841e+02   -4.10960e+01   -3.85027e+04
+
+
+Step 601 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+            700        0.70000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    7.15422e+02    1.43171e+03    4.58090e+03   -1.52547e+02   -5.02276e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    8.47366e+01   -4.35674e+04    1.53134e+03   -4.20361e+04    1.76288e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    4.19062e+01   -6.39402e+01   -7.25152e+03
+
+
+Step 701 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+            800        0.80000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    8.84268e+02    1.99274e+03    1.41970e+04   -2.00614e+02   -6.39420e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    6.34041e+01   -4.70052e+04    2.14089e+04   -2.55963e+04    2.74483e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    5.85870e+02   -1.10534e+02    5.72538e+04
+
+
+Step 801 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+            900        0.90000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    7.54156e+02    2.04435e+03    1.43599e+04   -2.07237e+02   -6.54123e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.93004e+01   -4.84018e+04    1.73663e+04   -3.10355e+04    3.29910e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    4.75242e+02   -1.17947e+02    4.87771e+04
+
+
+Step 901 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           1000        1.00000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.29924e+03    1.76609e+03    4.49867e+03   -1.73323e+02   -5.49293e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    6.24984e+01   -4.74761e+04    6.68211e+02   -4.68079e+04    3.51699e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.82861e+01   -8.25239e+01   -1.87557e+04
+
+
+Step 1001 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           1100        1.10000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    2.04506e+03    1.65293e+03    2.35337e+03   -1.58594e+02   -5.07918e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    6.57220e+01   -4.48333e+04    4.07389e+03   -4.07594e+04    3.65689e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.11485e+02   -6.91045e+01   -3.10249e+04
+
+
+Step 1101 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           1200        1.20000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.05693e+03    1.70962e+03    4.40732e+03   -1.66864e+02   -5.40618e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    6.56018e+01   -4.69892e+04    8.38891e+02   -4.61503e+04    3.68169e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    2.29568e+01   -7.64929e+01   -1.62634e+04
+
+
+Step 1201 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           1300        1.30000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    6.07417e+02    1.93185e+03    9.62464e+03   -1.89303e+02   -6.15124e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    6.12108e+01   -4.94766e+04    3.30544e+03   -4.61712e+04    3.82962e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    9.04557e+01   -9.84289e+01    9.97314e+03
+
+
+Step 1301 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           1400        1.40000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    7.22575e+02    2.10317e+03    1.39510e+04   -2.06250e+02   -6.67320e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.71569e+01   -5.01043e+04    7.24990e+03   -4.28544e+04    4.05820e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.98399e+02   -1.16826e+02    2.53248e+04
+
+           Step           Time
+           1500        1.50000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    8.29766e+02    2.01838e+03    1.14389e+04   -2.01063e+02   -6.47395e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.65005e+01   -5.05969e+04    2.66582e+03   -4.79311e+04    4.12465e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    7.29520e+01   -1.11029e+02    8.73703e+03
+
+
+Step 1501 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           1600        1.60000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    9.92372e+02    1.88372e+03    7.87114e+03   -1.88690e+02   -6.07494e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.74652e+01   -5.01334e+04    4.22278e+02   -4.97111e+04    4.14527e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.15559e+01   -9.77933e+01   -8.33553e+03
+
+           Step           Time
+           1700        1.70000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    9.98942e+02    1.82330e+03    7.03065e+03   -1.83905e+02   -5.95419e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.86579e+01   -4.98142e+04    4.86850e+02   -4.93274e+04    4.15390e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.33230e+01   -9.29004e+01   -1.15404e+04
+
+           Step           Time
+           1800        1.80000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    9.39409e+02    1.84930e+03    8.43059e+03   -1.88719e+02   -6.14909e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.88623e+01   -5.04015e+04    3.10094e+02   -5.00914e+04    4.15741e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    8.48594e+00   -9.78228e+01   -7.35525e+03
+
+
+Step 1801 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           1900        1.90000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.17410e+03    1.94104e+03    1.12779e+04   -2.00232e+02   -6.54584e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.75354e+01   -5.12081e+04    9.09272e+02   -5.02988e+04    4.18281e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    2.48829e+01   -1.10114e+02   -3.61410e+03
+
+
+Step 1901 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           2000        2.00000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.73501e+03    2.05409e+03    1.52588e+04   -2.16226e+02   -7.03738e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.52074e+01   -5.14869e+04    1.47648e+03   -5.00105e+04    4.23361e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    4.04050e+01   -1.28394e+02   -1.14290e+03
+
+
+Step 2001 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           2100        2.10000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    2.31245e+03    2.12314e+03    1.98571e+04   -2.35194e+02   -7.49115e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.32496e+01   -5.08008e+04    1.44810e+03   -4.93527e+04    4.28997e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    3.96283e+01   -1.51892e+02    4.26839e+03
+
+
+Step 2101 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           2200        2.20000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    2.55116e+03    2.06654e+03    2.24052e+04   -2.51505e+02   -7.66321e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.53979e+01   -4.98053e+04    1.13467e+03   -4.86706e+04    4.32179e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    3.10510e+01   -1.73676e+02    9.19659e+03
+
+           Step           Time
+           2300        2.30000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    2.03269e+03    1.90497e+03    2.10488e+04   -2.58404e+02   -7.46782e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.40208e+01   -4.98961e+04    7.96902e+02   -4.90992e+04    4.32727e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    2.18078e+01   -1.83330e+02    1.30294e+04
+
+
+Step 2301 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           2400        2.40000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.77018e+02    1.65447e+03    1.75985e+04   -2.50628e+02   -6.96470e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.12124e+01   -5.04164e+04    7.81819e+02   -4.96346e+04    4.32955e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    2.13950e+01   -1.72468e+02    5.37971e+04
+
+
+Step 2401 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           2500        2.50000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.77592e+02    1.33209e+03    4.95366e+03   -1.93621e+02   -5.57582e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.54627e+01   -4.94430e+04    4.52738e+03   -4.49156e+04    4.51910e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.23895e+02   -1.02967e+02    8.00179e+03
+
+
+Step 2501 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           2600        2.60000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    5.69785e+03    1.27464e+03   -3.47457e+02   -1.47754e+02   -4.48347e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.76961e+01   -3.83098e+04    3.75671e+04   -7.42641e+02    5.31992e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.02805e+03   -5.99890e+01   -5.07012e+04
+
+
+Step 2601 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           2700        2.70000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    6.00037e+03    1.28744e+03    5.01371e+01   -1.42960e+02   -4.48108e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.99360e+01   -3.75659e+04    3.17998e+04   -5.76612e+03    5.95660e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    8.70225e+02   -5.61627e+01   -5.18097e+04
+
+
+Step 2701 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           2800        2.80000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.00641e+03    1.56154e+03    4.64635e+03   -1.75365e+02   -5.52042e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.56870e+01   -4.81196e+04    1.28725e+03   -4.68323e+04    6.14275e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    3.52266e+01   -8.44789e+01   -1.81123e+04
+
+
+Step 2801 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           2900        2.90000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    2.61489e+02    2.41508e+03    2.11622e+04   -2.38396e+02   -7.35652e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.53789e+01   -4.99196e+04    1.62494e+04   -3.36701e+04    7.14047e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    4.44677e+02   -1.56053e+02    7.26200e+04
+
+           Step           Time
+           3000        3.00000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    4.22316e+02    2.41862e+03    1.91374e+04   -2.38531e+02   -7.29993e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.82631e+01   -5.12112e+04    9.38127e+03   -4.18299e+04    7.45331e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    2.56725e+02   -1.56229e+02    4.60730e+04
+
+
+Step 3001 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           3100        3.10000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    2.04305e+03    2.09667e+03    5.48119e+03   -1.95772e+02   -5.98256e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.71800e+01   -5.03533e+04    2.07999e+03   -4.82733e+04    7.74724e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    5.69204e+01   -1.05266e+02   -3.21752e+04
+
+
+Step 3101 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           3200        3.20000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    2.05374e+03    2.02427e+03    4.25002e+03   -1.86632e+02   -5.74816e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.63243e+01   -4.92938e+04    4.44423e+03   -4.48496e+04    7.87116e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.21620e+02   -9.56736e+01   -3.33286e+04
+
+
+Step 3201 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           3300        3.30000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    8.08911e+02    2.22894e+03    9.42618e+03   -2.06763e+02   -6.42205e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.63095e+01   -5.19169e+04    2.25569e+02   -5.16914e+04    7.92007e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    6.17285e+00   -1.17409e+02   -4.19058e+03
+
+
+Step 3301 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           3400        3.40000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    6.43681e+02    2.57117e+03    1.81402e+04   -2.34388e+02   -7.28933e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.91701e+01   -5.17235e+04    4.40377e+03   -4.73198e+04    8.12338e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.20512e+02   -1.50853e+02    3.08660e+04
+
+           Step           Time
+           3500        3.50000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    8.72999e+02    2.52361e+03    1.64388e+04   -2.32266e+02   -7.17815e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.02770e+01   -5.21281e+04    1.86564e+03   -5.02625e+04    8.17421e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    5.10546e+01   -1.48135e+02    1.75439e+04
+
+
+Step 3501 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           3600        3.60000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.15130e+03    2.32851e+03    1.00972e+04   -2.13167e+02   -6.56557e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.90166e+01   -5.22428e+04    4.25949e+02   -5.18169e+04    8.21150e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.16564e+01   -1.24788e+02   -9.06364e+03
+
+
+Step 3601 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           3700        3.70000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.18025e+03    2.24085e+03    8.14476e+03   -2.03993e+02   -6.31617e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.82399e+01   -5.17516e+04    1.23472e+03   -5.05169e+04    8.24498e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    3.37889e+01   -1.14286e+02   -1.46273e+04
+
+           Step           Time
+           3800        3.80000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.00095e+03    2.28187e+03    9.74516e+03   -2.08411e+02   -6.50327e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.85790e+01   -5.21645e+04    2.70446e+02   -5.18941e+04    8.24941e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    7.40094e+00   -1.19286e+02   -7.77029e+03
+
+
+Step 3801 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           3900        3.90000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.14258e+03    2.41190e+03    1.32690e+04   -2.20540e+02   -6.91874e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.02470e+01   -5.25342e+04    3.76504e+02   -5.21577e+04    8.26459e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.03033e+01   -1.33565e+02   -2.28673e+02
+
+
+Step 3901 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           4000        4.00000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.59740e+03    2.53799e+03    1.70089e+04   -2.33872e+02   -7.31749e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.29325e+01   -5.22115e+04    6.88677e+02   -5.15229e+04    8.29244e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.88461e+01   -1.50189e+02    3.53387e+03
+
+
+Step 4001 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           4100        4.10000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.97090e+03    2.57523e+03    1.92905e+04   -2.44364e+02   -7.52442e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.49590e+01   -5.15970e+04    4.67738e+02   -5.11292e+04    8.30972e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.28000e+01   -1.63960e+02    4.83447e+03
+
+           Step           Time
+           4200        4.20000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.88998e+03    2.50225e+03    1.93077e+04   -2.50004e+02   -7.48500e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.55764e+01   -5.13445e+04    3.22094e+02   -5.10224e+04    8.31363e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    8.81433e+00   -1.71610e+02    6.39251e+03
+
+           Step           Time
+           4300        4.30000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    7.51993e+02    2.32683e+03    1.75639e+04   -2.48634e+02   -7.20882e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.43520e+01   -5.16398e+04    2.67115e+02   -5.13727e+04    8.31377e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    7.30979e+00   -1.69736e+02    2.36067e+04
+
+
+Step 4301 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           4400        4.40000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    5.44708e+03    1.87991e+03    1.28496e+04   -2.23089e+02   -6.15742e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.79555e+01   -4.15727e+04    4.82798e+03   -3.67447e+04    8.33379e+06
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.32121e+02   -1.36667e+02    1.28179e+05
+
+
+Step 4401 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           4500        4.50000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    4.72636e+04    1.44311e+03   -2.31376e+03   -1.21224e+02   -3.81362e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.49986e+01    8.19049e+03    1.33836e+05    1.42026e+05    1.30456e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    3.66251e+03   -4.03976e+01   -1.27923e+05
+
+           Step           Time
+           4600        4.60000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    2.76005e+04    1.42966e+03   -2.20453e+03   -1.23270e+02   -3.77969e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.21553e+01   -1.10423e+04    1.16819e+05    1.05777e+05    1.72408e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    3.19685e+03   -4.17707e+01   -9.45299e+04
+
+
+Step 4601 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           4700        4.70000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    2.81050e+03    2.10010e+03    7.02686e+03   -1.97679e+02   -5.63864e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.23667e+01   -4.46042e+04    3.64154e+03   -4.09627e+04    2.00466e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    9.96533e+01   -1.07326e+02    7.68837e+04
+
+
+Step 4701 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           4800        4.80000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    2.54801e+03    2.64842e+03    1.98251e+04   -2.35390e+02   -6.93953e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.42572e+01   -4.45649e+04    7.32145e+03   -3.72434e+04    2.16026e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    2.00357e+02   -1.52144e+02    1.27412e+05
+
+
+Step 4801 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           4900        4.90000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    2.77459e+04    2.46878e+03    1.46071e+02   -1.63641e+02   -5.42291e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.08084e+01   -2.39812e+04    2.62625e+04    2.28128e+03    2.51344e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    7.18691e+02   -7.35689e+01   -1.48259e+05
+
+
+Step 4901 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           5000        5.00000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    2.27222e+03    2.90676e+03    1.67464e+04   -2.28645e+02   -6.73186e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.46086e+01   -4.55773e+04    2.78718e+03   -4.27901e+04    2.63936e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    7.62732e+01   -1.43555e+02    1.09773e+05
+
+
+Step 5001 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           5100        5.10000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    3.49494e+03    2.83752e+03    6.94125e+03   -2.00545e+02   -6.32979e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.81140e+01   -5.01766e+04    1.54088e+03   -4.86357e+04    2.65567e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    4.21672e+01   -1.10458e+02   -4.57347e+04
+
+
+Step 5101 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           5200        5.20000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    2.00747e+02    2.91919e+03    1.18057e+04   -2.16360e+02   -6.65396e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.72038e+01   -5.17831e+04    4.71301e+02   -5.13118e+04    2.66365e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.28975e+01   -1.28553e+02    2.00209e+04
+
+           Step           Time
+           5300        5.30000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    8.59046e+02    2.91831e+03    1.08121e+04   -2.13763e+02   -6.64986e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.81430e+01   -5.20747e+04    3.14014e+02   -5.17607e+04    2.66457e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    8.59321e+00   -1.25487e+02   -2.21616e+03
+
+           Step           Time
+           5400        5.40000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    9.36344e+02    2.90535e+03    1.06315e+04   -2.13293e+02   -6.63924e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.84802e+01   -5.20840e+04    2.88499e+02   -5.17955e+04    2.66548e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    7.89498e+00   -1.24936e+02   -4.32197e+03
+
+           Step           Time
+           5500        5.50000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    5.85665e+02    2.92428e+03    1.18077e+04   -2.16964e+02   -6.73118e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.86878e+01   -5.21625e+04    4.39446e+02   -5.17231e+04    2.66781e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.20257e+01   -1.29270e+02    6.96017e+03
+
+           Step           Time
+           5600        5.60000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.04029e+03    2.89763e+03    1.07650e+04   -2.13993e+02   -6.66928e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.91533e+01   -5.21547e+04    2.74548e+02   -5.18801e+04    2.66873e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    7.51320e+00   -1.25757e+02   -6.02544e+03
+
+           Step           Time
+           5700        5.70000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    6.92755e+02    2.90665e+03    1.16807e+04   -2.16806e+02   -6.73462e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.92763e+01   -5.22336e+04    3.66910e+02   -5.18667e+04    2.67024e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.00408e+01   -1.29082e+02    3.86817e+03
+
+           Step           Time
+           5800        5.80000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    8.84282e+02    2.89337e+03    1.13398e+04   -2.15919e+02   -6.72091e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.96202e+01   -5.22580e+04    2.96197e+02   -5.19618e+04    2.67110e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    8.10564e+00   -1.28029e+02   -1.38484e+03
+
+           Step           Time
+           5900        5.90000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    8.45903e+02    2.88608e+03    1.14709e+04   -2.16365e+02   -6.73236e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    4.98333e+01   -5.22873e+04    2.91000e+02   -5.19963e+04    2.67193e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    7.96343e+00   -1.28559e+02   -2.30610e+02
+
+           Step           Time
+           6000        6.00000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    8.26712e+02    2.88222e+03    1.16714e+04   -2.17036e+02   -6.75349e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.00811e+01   -5.23215e+04    2.97350e+02   -5.20241e+04    2.67278e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    8.13720e+00   -1.29357e+02    7.35904e+02
+
+           Step           Time
+           6100        6.10000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    8.75949e+02    2.87233e+03    1.16358e+04   -2.17000e+02   -6.75617e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.03343e+01   -5.23443e+04    2.71414e+02   -5.20729e+04    2.67346e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    7.42744e+00   -1.29313e+02   -4.38459e+02
+
+           Step           Time
+           6200        6.20000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    8.71110e+02    2.86510e+03    1.17490e+04   -2.17387e+02   -6.76903e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.05565e+01   -5.23719e+04    2.64349e+02   -5.21076e+04    2.67408e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    7.23409e+00   -1.29776e+02   -3.43866e+01
+
+           Step           Time
+           6300        6.30000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    8.76698e+02    2.85839e+03    1.18716e+04   -2.17810e+02   -6.78398e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.07825e+01   -5.24001e+04    2.58747e+02   -5.21414e+04    2.67466e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    7.08079e+00   -1.30281e+02    1.80949e+02
+
+           Step           Time
+           6400        6.40000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    8.96371e+02    2.84973e+03    1.19361e+04   -2.18060e+02   -6.79400e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.10003e+01   -5.24248e+04    2.45827e+02   -5.21790e+04    2.67517e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    6.72723e+00   -1.30579e+02   -6.43268e+01
+
+           Step           Time
+           6500        6.50000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    9.08339e+02    2.84110e+03    1.20243e+04   -2.18373e+02   -6.80561e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.12045e+01   -5.24496e+04    2.35672e+02   -5.22139e+04    2.67561e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    6.44934e+00   -1.30954e+02   -7.73088e+01
+
+           Step           Time
+           6600        6.60000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    9.18486e+02    2.83282e+03    1.21378e+04   -2.18763e+02   -6.81963e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.14080e+01   -5.24745e+04    2.28255e+02   -5.22463e+04    2.67600e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    6.24637e+00   -1.31422e+02    2.34694e+01
+
+           Step           Time
+           6700        6.70000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    9.32567e+02    2.82377e+03    1.22429e+04   -2.19132e+02   -6.83296e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.16108e+01   -5.24979e+04    2.19783e+02   -5.22781e+04    2.67634e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    6.01452e+00   -1.31866e+02    2.16846e+01
+
+           Step           Time
+           6800        6.80000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    9.48179e+02    2.81378e+03    1.23408e+04   -2.19482e+02   -6.84556e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.18065e+01   -5.25204e+04    2.10634e+02   -5.23098e+04    2.67664e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    5.76415e+00   -1.32287e+02   -2.85535e+01
+
+           Step           Time
+           6900        6.90000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    9.63385e+02    2.80325e+03    1.24477e+04   -2.19861e+02   -6.85889e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.20048e+01   -5.25424e+04    2.02494e+02   -5.23399e+04    2.67689e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    5.54140e+00   -1.32744e+02   -4.12496e+01
+
+           Step           Time
+           7000        7.00000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    9.78850e+02    2.79210e+03    1.25663e+04   -2.20283e+02   -6.87331e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.22082e+01   -5.25639e+04    1.95389e+02   -5.23685e+04    2.67711e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    5.34697e+00   -1.33253e+02   -2.13889e+01
+
+           Step           Time
+           7100        7.10000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    9.95635e+02    2.77983e+03    1.26892e+04   -2.20728e+02   -6.88818e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.24194e+01   -5.25854e+04    1.88505e+02   -5.23969e+04    2.67729e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    5.15857e+00   -1.33792e+02   -1.15917e+01
+
+           Step           Time
+           7200        7.20000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.01385e+03    2.76591e+03    1.28129e+04   -2.21186e+02   -6.90308e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.26411e+01   -5.26066e+04    1.81570e+02   -5.24251e+04    2.67745e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    4.96880e+00   -1.34347e+02   -2.43624e+01
+
+           Step           Time
+           7300        7.30000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.03333e+03    2.74994e+03    1.29412e+04   -2.21670e+02   -6.91836e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.28754e+01   -5.26280e+04    1.74947e+02   -5.24530e+04    2.67757e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    4.78755e+00   -1.34936e+02   -4.57266e+01
+
+           Step           Time
+           7400        7.40000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.05447e+03    2.73130e+03    1.30795e+04   -2.22202e+02   -6.93455e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.31245e+01   -5.26494e+04    1.68955e+02   -5.24804e+04    2.67767e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    4.62358e+00   -1.35584e+02   -6.62212e+01
+
+           Step           Time
+           7500        7.50000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.07872e+03    2.70881e+03    1.32314e+04   -2.22803e+02   -6.95210e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.33953e+01   -5.26714e+04    1.63793e+02   -5.25076e+04    2.67774e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    4.48230e+00   -1.36318e+02   -1.02665e+02
+
+           Step           Time
+           7600        7.60000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.11008e+03    2.68024e+03    1.34026e+04   -2.23508e+02   -6.97179e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.36974e+01   -5.26948e+04    1.60065e+02   -5.25348e+04    2.67780e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    4.38029e+00   -1.37182e+02   -2.13439e+02
+
+           Step           Time
+           7700        7.70000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.16447e+03    2.64137e+03    1.36128e+04   -2.24431e+02   -6.99689e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.40582e+01   -5.27207e+04    1.60060e+02   -5.25606e+04    2.67784e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    4.38016e+00   -1.38316e+02   -6.32307e+02
+
+           Step           Time
+           7800        7.80000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    1.34331e+03    2.58348e+03    1.39326e+04   -2.25995e+02   -7.04281e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.45726e+01   -5.27402e+04    1.77378e+02   -5.25628e+04    2.67787e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    4.85408e+00   -1.40249e+02   -2.92618e+03
+
+           Step           Time
+           7900        7.90000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    3.09524e+03    2.49926e+03    1.46121e+04   -2.30567e+02   -7.22728e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.57382e+01   -5.22411e+04    5.23612e+02   -5.17174e+04    2.67796e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    1.43290e+01   -1.45978e+02   -2.55780e+04
+
+
+Step 7901 Pressure scaling more than 1%. This may mean your system is not yet equilibrated. Use of Parrinello-Rahman pressure coupling during equilibration can lead to simulation instability, and is discouraged.
+           Step           Time
+           8000        8.00000
+
+   Energies (kJ/mol)
+           Bond          Angle        LJ (SR)  Disper. corr.   Coulomb (SR)
+    3.58182e+04    2.66336e+03    1.74736e+04   -2.64378e+02   -8.06138e+04
+   Coul. recip.      Potential    Kinetic En.   Total Energy  Conserved En.
+    5.72472e+01   -2.48657e+04    1.99529e+04   -4.91283e+03    2.68153e+07
+    Temperature Pres. DC (bar) Pressure (bar)
+    5.46025e+02   -1.91899e+02   -2.15314e+05
+
