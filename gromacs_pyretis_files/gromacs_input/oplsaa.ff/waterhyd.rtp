@@ -1,0 +1,10 @@
+[ SOL2 ] 
+; TIP4P/Ice for hydrate water molecules
+ [ atoms ]
+    OW   opls_113    0.0000      0
+   HW1   opls_114    0.5897      0
+   HW2   opls_114    0.5897      0
+    MW   opls_115   -1.1794      0
+ [ bonds ]
+    OW   HW1
+    OW   HW2

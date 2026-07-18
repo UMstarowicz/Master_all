@@ -1,0 +1,4 @@
+; Methane United Atom for hydrate phase
+[ HC4 ]
+ [ atoms ]
+   HC4     opls_066     0.000    1

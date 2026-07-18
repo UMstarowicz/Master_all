@@ -1,0 +1,4 @@
+; Helium
+[ He ]
+ [ atoms ]
+   He     opls_130     0.000    1

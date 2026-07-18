@@ -1,0 +1,36 @@
+integrator               = md        
+dt                       = 0.002    ; 2 fs
+nsteps                   = 1500000000    ; 3000 ns
+
+nstxout                  = 50000
+nstvout                  = 50000
+
+nstenergy                = 200
+nstlog                   = 2000
+nstxout-compressed       = 10000
+
+continuation             = yes
+constraint-algorithm     = lincs
+constraints              = h-bonds
+lincs-order              = 6
+
+cutoff-scheme            = Verlet
+
+coulombtype              = PME
+rcoulomb                 = 1.2
+
+vdwtype                  = PME
+rvdw                     = 1.2
+DispCorr                 = no
+
+tcoupl                   = Nose-Hoover
+tc-grps                  = System
+tau-t                    = 4.0
+ref-t                    = 270.0
+nhchainlength            = 1
+
+pcoupl                   = Parrinello-Rahman
+pcoupltype               = isotropic
+tau_p                    = 10.0
+compressibility          = 4.5e-5
+ref_p                    = 1000.0

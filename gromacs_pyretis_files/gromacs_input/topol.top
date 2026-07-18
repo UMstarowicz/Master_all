@@ -1,0 +1,43 @@
+;
+;	File 'topol.top' was generated
+;	By user: unknown (1000)
+;	On host: ARTHUR
+;	At date: Mon Dec  5 16:05:38 2022
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2022.3 (-:
+;	
+;	Executable:   /usr/local/gromacs/bin/gmx_mpi
+;	Data prefix:  /usr/local/gromacs
+;	Working dir:  /home/weidmann/Simulations/SIM177_Validation
+;	Command line:
+;	  gmx_mpi pdb2gmx -f conffinal.gro
+;	Force field was read from current directory or a relative path - path added.
+;
+
+; Include forcefield parameters
+#include "./oplsaa.ff/forcefield.itp"
+#include "./oplsaa.ff/propaneUA.itp"
+#include "./oplsaa.ff/co2.itp"
+
+; Include water topology
+#include "./oplsaa.ff/tip4p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+[ system ]
+; Name
+CO2 and Propane for Hydrate Nucleation
+
+[ molecules ]
+; Compound        #mols
+SOL              3672
+C3H8              216
+CO2               216

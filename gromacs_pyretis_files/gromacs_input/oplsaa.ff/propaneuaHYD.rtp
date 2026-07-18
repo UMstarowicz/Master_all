@@ -1,0 +1,10 @@
+
+; Propane
+[ PROP ]
+ [ atoms ]
+   C2    opls_071     0.000    1   
+   C3    opls_068     0.000    1
+   C1    opls_068B    0.000    1
+ [ bonds ]
+  C3     C2
+  C1     C2
