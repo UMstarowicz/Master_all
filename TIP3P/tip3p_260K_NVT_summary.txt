@@ -1,0 +1,5 @@
+Temperature mean [K]: 260.419644
+Temperature std [K]: 5.166360
+Temperature min [K]: 246.265214
+Temperature max [K]: 277.901241
+Potential energy mean [kJ/mol]: -37268.010759
