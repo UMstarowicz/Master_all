@@ -1,0 +1,5 @@
+# Cycle: 100, status: ACC, move: ('s-', 0, 0, 0)
+#     Time       Orderp
+         0     0.107924
+         1     0.111310
+         2     0.108154

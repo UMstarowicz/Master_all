@@ -1,0 +1,5 @@
+# Cycle: 1500, status: NCR
+#     Step              Filename       index    vel
+         0    006_6004_trajB.trr           1     -1
+         1    006_6004_trajB.trr           0     -1
+         2    006_6005_trajF.trr           1      1

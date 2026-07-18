@@ -1,0 +1,4 @@
+# Cycle: 250, status: BTL
+#     Step              Filename       index    vel
+         0    004_1005_trajB.trr           0     -1
+         1    004_1005_trajB.trr           1     -1

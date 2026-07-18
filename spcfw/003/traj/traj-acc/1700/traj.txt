@@ -1,0 +1,8 @@
+# Cycle: 1700, status: ACC
+#     Step              Filename       index    vel
+         0    005_6703_trajF.trr           2     -1
+         1    005_6703_trajF.trr           1     -1
+         2    005_6702_trajB.trr           0      1
+         3    005_6702_trajB.trr           1      1
+         4    005_6702_trajB.trr           2      1
+         5    005_6702_trajB.trr           3      1
