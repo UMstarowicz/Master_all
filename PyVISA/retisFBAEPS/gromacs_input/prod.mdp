@@ -1,0 +1,19 @@
+integrator   = md
+dt           = 0.001
+nsteps       = 500000     ; 500 ps
+
+; Temperature
+tcoupl       = V-rescale
+tc-grps      = System
+tau_t        = 0.1
+ref_t        = 300
+
+; IMPORTANT: turn OFF pressure coupling
+pcoupl       = no
+
+; Output (CRITICAL for PyRETIS)
+nstxout      = 100
+nstvout      = 100
+
+constraints  = h-bonds
+constraint_algorithm = lincs
