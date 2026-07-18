@@ -1,0 +1,36 @@
+[INFO]: 
+        
+          _______                                     _______________
+         /   ___ \       _____  ____  ____________   / __        ___/
+        /_/\ \_/ /_  __  \  _ \/ __/ /_  _/ / ___/  /_/ / // // /
+           /  __  / / /  / /_)  _/    / // /\ \        / // // / __
+          / /   \ \/ /  / _  \ /__   / // /__\ \   ___/ // // /_/ /
+         /_/    _\  /  /_/ |_|___/  /_//_/_____/  /______________/
+               /___/
+        
+[INFO]: PyRETIS version: 3.0.1
+[INFO]: Start of execution: 16.05.2026 23:16:28
+[INFO]: Python version: 3.12.3
+[INFO]: Running in directory: /home/ula/gromacs_runs/water_analysis_results
+[INFO]: Input file: retis_prod.rst
+[INFO]: Log file: pyretis.log
+[ERROR]: "ValueError: ('Input file "retis_prod.rst" NOT found!',)".
+[ERROR]: Traceback (most recent call last):
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisrun.py", line 518, in main
+             run, simulation, settings = set_up_simulation(infile, exe_dir)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisrun.py", line 415, in set_up_simulation
+             raise ValueError(f'Input file "{inputfile}" NOT found!')
+         ValueError: Input file "retis_prod.rst" NOT found!
+         
+[INFO]: Full simulation settings written to: /home/ula/gromacs_runs/water_analysis_results/out.rst
+[INFO]: End of PyRETIS execution: 16.05.2026 23:16:28
+[INFO]: PyRETIS references:
+        -------------------
+        [1] A. Lervik, E. Riccardi and T. S. van Erp, J. Comput. Chem., 2017
+            doi: https://dx.doi.org/10.1002/jcc.24900
+        [2] E. Riccardi, A. Lervik, S. Roet, O. Aarøen and T. S. van Erp,
+            J. Comput. Chem., 2019, doi: https://dx.doi.org/10.1002/jcc.26112
+        [3] W. Vervust, D. T. Zhang, A. Ghysels, S. Roet, T. S. van Erp, E. Riccardi,
+            J. Comput. Chem. 2024, 1. https://doi.org/10.1002/jcc.27319
+[INFO]: http://www.pyretis.org
