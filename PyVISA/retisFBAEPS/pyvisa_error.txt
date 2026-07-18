@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyvisa.py", line 179, in main
+    pyvisa_visual(basepath, input_file, pyvisa_dict)
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyvisa.py", line 116, in pyvisa_visual
+    raise ImportError(msg)
+ImportError: Requirements not installed. You can still generate the hdf5 by using the -cmp flag instead

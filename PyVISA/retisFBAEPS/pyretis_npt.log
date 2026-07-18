@@ -1,0 +1,3 @@
+nohup: ignoring input
+usage: pyretisrun [-h] -i INPUT [-V] [-f LOG_FILE] [-l LOG_LEVEL] [-p]
+pyretisrun: error: the following arguments are required: -i/--input

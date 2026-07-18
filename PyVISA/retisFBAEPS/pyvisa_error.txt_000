@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyvisa.py", line 170, in main
+    raise FileNotFoundError(f'Input file "{input_file}" NOT found!')
+FileNotFoundError: Input file "simulation.hdf5" NOT found!
