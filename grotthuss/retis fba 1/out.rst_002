@@ -1,0 +1,690 @@
+; PyRETIS input for water autoionization / Grotthuss initiation detection
+; Based on: Moqadam et al., PNAS 2018
+;
+; ORDER PARAMETER: λ = largest O-H bond distance in system (nm)
+; Paper uses AIMD with BLYP/DZVP, 32 waters, 300 K, NVE
+; We use SPC/Fw, 1000 waters, 300 K, NPT
+;
+; INTERFACES:
+;   Paper (AIMD, Angstrom): 1.07, 1.10, 1.13, 1.16, 1.19, 1.22 ...
+;   Here (nm, SPC/Fw):      0.107, 0.109, 0.111, 0.113, 0.115, 0.117, 0.120
+;
+;   SPC/Fw O-H equilibrium = 0.1012 nm, fluctuates ±0.005 nm typically
+;   Interfaces cover the tail of the distribution up to stretched bonds
+;   The "reactive initiation" threshold from paper = 1.15 Å = 0.115 nm
+;
+; KEY RESULT FROM PAPER (Fig. 3, 4, 5):
+;   When λ crosses 1.15-1.16 Å (0.115-0.116 nm), the trajectory outcome
+;   is predicted by: w4, q (tetrahedral OP), na (H-bonds accepted), qcos
+;   The ML classifier (grotthuss_ml_classifier.py) computes these CVs
+;   from the accepted PyRETIS paths.
+;
+; IMPORTANT NOTE:
+;   With classical SPC/Fw, bonds cannot break → true autoionization
+;   cannot occur. The simulation captures initiation conditions only.
+;   For full reactive dynamics, replace GROMACS with CP2K+BLYP or
+;   ASE+MACE-MP-0 (see documentation).
+Retis Water Autoionization - Moqadam 2018
+==========================================
+
+Simulation settings
+-------------------
+task = 'retis'
+steps = 500
+interfaces = [0.1085, 0.109, 0.1095, 0.11, 0.1105, 0.111, 0.1115]
+zero_left = 0.1078
+exe_path = '/home/ula/pyretis_run/project_masters/retis_grotthuss'
+rgen = 'rgen'
+priority_shooting = False
+flux = True
+zero_ensemble = True
+endcycle = 50
+
+System settings
+---------------
+units = 'gromacs'
+dimensions = 3
+temperature = 1.0
+
+Engine settings
+---------------
+class = 'gromacs2'
+gmx = 'gmx'
+mdrun = 'gmx mdrun -ntmpi 1 -ntomp 8'
+input_path = 'gromacs_input'
+timestep = 0.001
+subcycles = 5000
+gmx_format = 'gro'
+maxwarn = 1
+exe_path = '/home/ula/pyretis_run/project_masters/retis_grotthuss'
+rgen = 'rgen'
+type = 'external'
+input_files = {'conf': '/home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/conf.gro',
+               'index': '/home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/index.ndx',
+               'input_o': '/home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp',
+               'topology': '/home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.top'}
+
+Particles settings
+------------------
+type = 'external'
+
+Orderparameter settings
+-----------------------
+class = 'WaterAutoionization'
+module = 'orderp_grotthuss.py'
+name = 'Order Parameter'
+
+Output settings
+---------------
+pathensemble-file = 1
+order-file = 1
+energy-file = 1
+trajectory-file = 50
+backup = 'append'
+cross-file = 1
+restart-file = 1
+screen = 10
+
+TIS settings
+------------
+freq = 0.5
+maxlength = 50000
+aimless = True
+allowmaxlength = False
+zero_momentum = False
+rescale_energy = False
+sigma_v = -1
+seed = 0
+shooting_move = 'sh'
+high_accept = False
+rgen = 'rgen'
+shooting_moves = []
+mirror_freq = 0
+target_freq = 0
+target_indices = []
+
+Initial-path settings
+---------------------
+method = 'load'
+load_folder = 'load'
+
+RETIS settings
+--------------
+swapfreq = 0.5
+relative_shoots = None
+nullmoves = True
+swapsimul = True
+
+Ensemble
+--------
+heading = {'text': '; PyRETIS input for water autoionization / Grotthuss initiation detection\n; Based on: Moqadam et al., PNAS 2018\n;\n; ORDER PARAMETER: λ = largest O-H bond distance in system (nm)\n; Paper uses AIMD with BLYP/DZVP, 32 waters, 300 K, NVE\n; We use SPC/Fw, 1000 waters, 300 K, NPT\n;\n; INTERFACES:\n;   Paper (AIMD, Angstrom): 1.07, 1.10, 1.13, 1.16, 1.19, 1.22 ...\n;   Here (nm, SPC/Fw):      0.107, 0.109, 0.111, 0.113, 0.115, 0.117, 0.120\n;\n;   SPC/Fw O-H equilibrium = 0.1012 nm, fluctuates ±0.005 nm typically\n;   Interfaces cover the tail of the distribution up to stretched bonds\n;   The "reactive initiation" threshold from paper = 1.15 Å = 0.115 nm\n;\n; KEY RESULT FROM PAPER (Fig. 3, 4, 5):\n;   When λ crosses 1.15-1.16 Å (0.115-0.116 nm), the trajectory outcome\n;   is predicted by: w4, q (tetrahedral OP), na (H-bonds accepted), qcos\n;   The ML classifier (grotthuss_ml_classifier.py) computes these CVs\n;   from the accepted PyRETIS paths.\n;\n; IMPORTANT NOTE:\n;   With classical SPC/Fw, bonds cannot break → true autoionization\n;   cannot occur. The simulation captures initiation conditions only.\n;   For full reactive dynamics, replace GROMACS with CP2K+BLYP or\n;   ASE+MACE-MP-0 (see documentation).\nRetis Water Autoionization - Moqadam 2018\n=========================================='}
+simulation task = retis
+simulation steps = 500
+simulation interfaces = [0.1078, 0.1085, 0.1085]
+simulation zero_left = 0.1078
+simulation exe_path = /home/ula/pyretis_run/project_masters/retis_grotthuss
+simulation rgen = rgen
+simulation priority_shooting = False
+simulation flux = True
+simulation zero_ensemble = True
+system units = gromacs
+system dimensions = 3
+system temperature = 1.0
+engine class = gromacs2
+engine gmx = gmx
+engine mdrun = gmx mdrun -ntmpi 1 -ntomp 8
+engine input_path = gromacs_input
+engine timestep = 0.001
+engine subcycles = 5000
+engine gmx_format = gro
+engine maxwarn = 1
+engine exe_path = /home/ula/pyretis_run/project_masters/retis_grotthuss
+engine rgen = rgen
+engine type = external
+engine input_files conf = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/conf.gro
+engine input_files input_o = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp
+engine input_files topology = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.top
+engine input_files index = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/index.ndx
+tis freq = 0.5
+tis maxlength = 50000
+tis aimless = True
+tis allowmaxlength = False
+tis zero_momentum = False
+tis rescale_energy = False
+tis sigma_v = -1
+tis seed = 0
+tis shooting_move = sh
+tis high_accept = False
+tis rgen = rgen
+tis shooting_moves = []
+tis mirror_freq = 0
+tis target_freq = 0
+tis target_indices = []
+tis ensemble_number = 0
+tis detect = 0.109
+retis swapfreq = 0.5
+retis relative_shoots = None
+retis nullmoves = True
+retis swapsimul = True
+initial-path method = load
+initial-path load_folder = load
+orderparameter class = WaterAutoionization
+orderparameter module = orderp_grotthuss.py
+orderparameter name = Order Parameter
+output pathensemble-file = 1
+output order-file = 1
+output energy-file = 1
+output trajectory-file = 50
+output backup = append
+output cross-file = 1
+output restart-file = 1
+output screen = 10
+particles type = external
+analysis blockskip = 1
+analysis bins = 100
+analysis maxblock = 1000
+analysis maxordermsd = -1
+analysis ngrid = 1001
+analysis plot plotter = mpl
+analysis plot output = png
+analysis plot style = pyretis
+analysis report = ['latex', 'rst', 'html']
+analysis skipcross = 1000
+analysis txt-output = txt.gz
+analysis tau_ref_bin = []
+analysis skip = 0
+interface = 0.1085
+
+Ensemble
+--------
+heading = {'text': '; PyRETIS input for water autoionization / Grotthuss initiation detection\n; Based on: Moqadam et al., PNAS 2018\n;\n; ORDER PARAMETER: λ = largest O-H bond distance in system (nm)\n; Paper uses AIMD with BLYP/DZVP, 32 waters, 300 K, NVE\n; We use SPC/Fw, 1000 waters, 300 K, NPT\n;\n; INTERFACES:\n;   Paper (AIMD, Angstrom): 1.07, 1.10, 1.13, 1.16, 1.19, 1.22 ...\n;   Here (nm, SPC/Fw):      0.107, 0.109, 0.111, 0.113, 0.115, 0.117, 0.120\n;\n;   SPC/Fw O-H equilibrium = 0.1012 nm, fluctuates ±0.005 nm typically\n;   Interfaces cover the tail of the distribution up to stretched bonds\n;   The "reactive initiation" threshold from paper = 1.15 Å = 0.115 nm\n;\n; KEY RESULT FROM PAPER (Fig. 3, 4, 5):\n;   When λ crosses 1.15-1.16 Å (0.115-0.116 nm), the trajectory outcome\n;   is predicted by: w4, q (tetrahedral OP), na (H-bonds accepted), qcos\n;   The ML classifier (grotthuss_ml_classifier.py) computes these CVs\n;   from the accepted PyRETIS paths.\n;\n; IMPORTANT NOTE:\n;   With classical SPC/Fw, bonds cannot break → true autoionization\n;   cannot occur. The simulation captures initiation conditions only.\n;   For full reactive dynamics, replace GROMACS with CP2K+BLYP or\n;   ASE+MACE-MP-0 (see documentation).\nRetis Water Autoionization - Moqadam 2018\n=========================================='}
+simulation task = retis
+simulation steps = 500
+simulation interfaces = [0.1085, 0.1085, 0.1115]
+simulation zero_left = 0.1078
+simulation exe_path = /home/ula/pyretis_run/project_masters/retis_grotthuss
+simulation rgen = rgen
+simulation priority_shooting = False
+simulation flux = True
+simulation zero_ensemble = True
+system units = gromacs
+system dimensions = 3
+system temperature = 1.0
+engine class = gromacs2
+engine gmx = gmx
+engine mdrun = gmx mdrun -ntmpi 1 -ntomp 8
+engine input_path = gromacs_input
+engine timestep = 0.001
+engine subcycles = 5000
+engine gmx_format = gro
+engine maxwarn = 1
+engine exe_path = /home/ula/pyretis_run/project_masters/retis_grotthuss
+engine rgen = rgen
+engine type = external
+engine input_files conf = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/conf.gro
+engine input_files input_o = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp
+engine input_files topology = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.top
+engine input_files index = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/index.ndx
+tis freq = 0.5
+tis maxlength = 50000
+tis aimless = True
+tis allowmaxlength = False
+tis zero_momentum = False
+tis rescale_energy = False
+tis sigma_v = -1
+tis seed = 0
+tis shooting_move = sh
+tis high_accept = False
+tis rgen = rgen
+tis shooting_moves = []
+tis mirror_freq = 0
+tis target_freq = 0
+tis target_indices = []
+tis ensemble_number = 1
+tis detect = 0.109
+retis swapfreq = 0.5
+retis relative_shoots = None
+retis nullmoves = True
+retis swapsimul = True
+initial-path method = load
+initial-path load_folder = load
+orderparameter class = WaterAutoionization
+orderparameter module = orderp_grotthuss.py
+orderparameter name = Order Parameter
+output pathensemble-file = 1
+output order-file = 1
+output energy-file = 1
+output trajectory-file = 50
+output backup = append
+output cross-file = 1
+output restart-file = 1
+output screen = 10
+particles type = external
+analysis blockskip = 1
+analysis bins = 100
+analysis maxblock = 1000
+analysis maxordermsd = -1
+analysis ngrid = 1001
+analysis plot plotter = mpl
+analysis plot output = png
+analysis plot style = pyretis
+analysis report = ['latex', 'rst', 'html']
+analysis skipcross = 1000
+analysis txt-output = txt.gz
+analysis tau_ref_bin = []
+analysis skip = 0
+interface = 0.1085
+
+Ensemble
+--------
+heading = {'text': '; PyRETIS input for water autoionization / Grotthuss initiation detection\n; Based on: Moqadam et al., PNAS 2018\n;\n; ORDER PARAMETER: λ = largest O-H bond distance in system (nm)\n; Paper uses AIMD with BLYP/DZVP, 32 waters, 300 K, NVE\n; We use SPC/Fw, 1000 waters, 300 K, NPT\n;\n; INTERFACES:\n;   Paper (AIMD, Angstrom): 1.07, 1.10, 1.13, 1.16, 1.19, 1.22 ...\n;   Here (nm, SPC/Fw):      0.107, 0.109, 0.111, 0.113, 0.115, 0.117, 0.120\n;\n;   SPC/Fw O-H equilibrium = 0.1012 nm, fluctuates ±0.005 nm typically\n;   Interfaces cover the tail of the distribution up to stretched bonds\n;   The "reactive initiation" threshold from paper = 1.15 Å = 0.115 nm\n;\n; KEY RESULT FROM PAPER (Fig. 3, 4, 5):\n;   When λ crosses 1.15-1.16 Å (0.115-0.116 nm), the trajectory outcome\n;   is predicted by: w4, q (tetrahedral OP), na (H-bonds accepted), qcos\n;   The ML classifier (grotthuss_ml_classifier.py) computes these CVs\n;   from the accepted PyRETIS paths.\n;\n; IMPORTANT NOTE:\n;   With classical SPC/Fw, bonds cannot break → true autoionization\n;   cannot occur. The simulation captures initiation conditions only.\n;   For full reactive dynamics, replace GROMACS with CP2K+BLYP or\n;   ASE+MACE-MP-0 (see documentation).\nRetis Water Autoionization - Moqadam 2018\n=========================================='}
+simulation task = retis
+simulation steps = 500
+simulation interfaces = [0.1085, 0.109, 0.1115]
+simulation zero_left = 0.1078
+simulation exe_path = /home/ula/pyretis_run/project_masters/retis_grotthuss
+simulation rgen = rgen
+simulation priority_shooting = False
+simulation flux = True
+simulation zero_ensemble = True
+system units = gromacs
+system dimensions = 3
+system temperature = 1.0
+engine class = gromacs2
+engine gmx = gmx
+engine mdrun = gmx mdrun -ntmpi 1 -ntomp 8
+engine input_path = gromacs_input
+engine timestep = 0.001
+engine subcycles = 5000
+engine gmx_format = gro
+engine maxwarn = 1
+engine exe_path = /home/ula/pyretis_run/project_masters/retis_grotthuss
+engine rgen = rgen
+engine type = external
+engine input_files conf = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/conf.gro
+engine input_files input_o = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp
+engine input_files topology = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.top
+engine input_files index = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/index.ndx
+tis freq = 0.5
+tis maxlength = 50000
+tis aimless = True
+tis allowmaxlength = False
+tis zero_momentum = False
+tis rescale_energy = False
+tis sigma_v = -1
+tis seed = 0
+tis shooting_move = sh
+tis high_accept = False
+tis rgen = rgen
+tis shooting_moves = []
+tis mirror_freq = 0
+tis target_freq = 0
+tis target_indices = []
+tis ensemble_number = 2
+tis detect = 0.1095
+retis swapfreq = 0.5
+retis relative_shoots = None
+retis nullmoves = True
+retis swapsimul = True
+initial-path method = load
+initial-path load_folder = load
+orderparameter class = WaterAutoionization
+orderparameter module = orderp_grotthuss.py
+orderparameter name = Order Parameter
+output pathensemble-file = 1
+output order-file = 1
+output energy-file = 1
+output trajectory-file = 50
+output backup = append
+output cross-file = 1
+output restart-file = 1
+output screen = 10
+particles type = external
+analysis blockskip = 1
+analysis bins = 100
+analysis maxblock = 1000
+analysis maxordermsd = -1
+analysis ngrid = 1001
+analysis plot plotter = mpl
+analysis plot output = png
+analysis plot style = pyretis
+analysis report = ['latex', 'rst', 'html']
+analysis skipcross = 1000
+analysis txt-output = txt.gz
+analysis tau_ref_bin = []
+analysis skip = 0
+interface = 0.109
+
+Ensemble
+--------
+heading = {'text': '; PyRETIS input for water autoionization / Grotthuss initiation detection\n; Based on: Moqadam et al., PNAS 2018\n;\n; ORDER PARAMETER: λ = largest O-H bond distance in system (nm)\n; Paper uses AIMD with BLYP/DZVP, 32 waters, 300 K, NVE\n; We use SPC/Fw, 1000 waters, 300 K, NPT\n;\n; INTERFACES:\n;   Paper (AIMD, Angstrom): 1.07, 1.10, 1.13, 1.16, 1.19, 1.22 ...\n;   Here (nm, SPC/Fw):      0.107, 0.109, 0.111, 0.113, 0.115, 0.117, 0.120\n;\n;   SPC/Fw O-H equilibrium = 0.1012 nm, fluctuates ±0.005 nm typically\n;   Interfaces cover the tail of the distribution up to stretched bonds\n;   The "reactive initiation" threshold from paper = 1.15 Å = 0.115 nm\n;\n; KEY RESULT FROM PAPER (Fig. 3, 4, 5):\n;   When λ crosses 1.15-1.16 Å (0.115-0.116 nm), the trajectory outcome\n;   is predicted by: w4, q (tetrahedral OP), na (H-bonds accepted), qcos\n;   The ML classifier (grotthuss_ml_classifier.py) computes these CVs\n;   from the accepted PyRETIS paths.\n;\n; IMPORTANT NOTE:\n;   With classical SPC/Fw, bonds cannot break → true autoionization\n;   cannot occur. The simulation captures initiation conditions only.\n;   For full reactive dynamics, replace GROMACS with CP2K+BLYP or\n;   ASE+MACE-MP-0 (see documentation).\nRetis Water Autoionization - Moqadam 2018\n=========================================='}
+simulation task = retis
+simulation steps = 500
+simulation interfaces = [0.1085, 0.1095, 0.1115]
+simulation zero_left = 0.1078
+simulation exe_path = /home/ula/pyretis_run/project_masters/retis_grotthuss
+simulation rgen = rgen
+simulation priority_shooting = False
+simulation flux = True
+simulation zero_ensemble = True
+system units = gromacs
+system dimensions = 3
+system temperature = 1.0
+engine class = gromacs2
+engine gmx = gmx
+engine mdrun = gmx mdrun -ntmpi 1 -ntomp 8
+engine input_path = gromacs_input
+engine timestep = 0.001
+engine subcycles = 5000
+engine gmx_format = gro
+engine maxwarn = 1
+engine exe_path = /home/ula/pyretis_run/project_masters/retis_grotthuss
+engine rgen = rgen
+engine type = external
+engine input_files conf = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/conf.gro
+engine input_files input_o = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp
+engine input_files topology = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.top
+engine input_files index = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/index.ndx
+tis freq = 0.5
+tis maxlength = 50000
+tis aimless = True
+tis allowmaxlength = False
+tis zero_momentum = False
+tis rescale_energy = False
+tis sigma_v = -1
+tis seed = 0
+tis shooting_move = sh
+tis high_accept = False
+tis rgen = rgen
+tis shooting_moves = []
+tis mirror_freq = 0
+tis target_freq = 0
+tis target_indices = []
+tis ensemble_number = 3
+tis detect = 0.11
+retis swapfreq = 0.5
+retis relative_shoots = None
+retis nullmoves = True
+retis swapsimul = True
+initial-path method = load
+initial-path load_folder = load
+orderparameter class = WaterAutoionization
+orderparameter module = orderp_grotthuss.py
+orderparameter name = Order Parameter
+output pathensemble-file = 1
+output order-file = 1
+output energy-file = 1
+output trajectory-file = 50
+output backup = append
+output cross-file = 1
+output restart-file = 1
+output screen = 10
+particles type = external
+analysis blockskip = 1
+analysis bins = 100
+analysis maxblock = 1000
+analysis maxordermsd = -1
+analysis ngrid = 1001
+analysis plot plotter = mpl
+analysis plot output = png
+analysis plot style = pyretis
+analysis report = ['latex', 'rst', 'html']
+analysis skipcross = 1000
+analysis txt-output = txt.gz
+analysis tau_ref_bin = []
+analysis skip = 0
+interface = 0.1095
+
+Ensemble
+--------
+heading = {'text': '; PyRETIS input for water autoionization / Grotthuss initiation detection\n; Based on: Moqadam et al., PNAS 2018\n;\n; ORDER PARAMETER: λ = largest O-H bond distance in system (nm)\n; Paper uses AIMD with BLYP/DZVP, 32 waters, 300 K, NVE\n; We use SPC/Fw, 1000 waters, 300 K, NPT\n;\n; INTERFACES:\n;   Paper (AIMD, Angstrom): 1.07, 1.10, 1.13, 1.16, 1.19, 1.22 ...\n;   Here (nm, SPC/Fw):      0.107, 0.109, 0.111, 0.113, 0.115, 0.117, 0.120\n;\n;   SPC/Fw O-H equilibrium = 0.1012 nm, fluctuates ±0.005 nm typically\n;   Interfaces cover the tail of the distribution up to stretched bonds\n;   The "reactive initiation" threshold from paper = 1.15 Å = 0.115 nm\n;\n; KEY RESULT FROM PAPER (Fig. 3, 4, 5):\n;   When λ crosses 1.15-1.16 Å (0.115-0.116 nm), the trajectory outcome\n;   is predicted by: w4, q (tetrahedral OP), na (H-bonds accepted), qcos\n;   The ML classifier (grotthuss_ml_classifier.py) computes these CVs\n;   from the accepted PyRETIS paths.\n;\n; IMPORTANT NOTE:\n;   With classical SPC/Fw, bonds cannot break → true autoionization\n;   cannot occur. The simulation captures initiation conditions only.\n;   For full reactive dynamics, replace GROMACS with CP2K+BLYP or\n;   ASE+MACE-MP-0 (see documentation).\nRetis Water Autoionization - Moqadam 2018\n=========================================='}
+simulation task = retis
+simulation steps = 500
+simulation interfaces = [0.1085, 0.11, 0.1115]
+simulation zero_left = 0.1078
+simulation exe_path = /home/ula/pyretis_run/project_masters/retis_grotthuss
+simulation rgen = rgen
+simulation priority_shooting = False
+simulation flux = True
+simulation zero_ensemble = True
+system units = gromacs
+system dimensions = 3
+system temperature = 1.0
+engine class = gromacs2
+engine gmx = gmx
+engine mdrun = gmx mdrun -ntmpi 1 -ntomp 8
+engine input_path = gromacs_input
+engine timestep = 0.001
+engine subcycles = 5000
+engine gmx_format = gro
+engine maxwarn = 1
+engine exe_path = /home/ula/pyretis_run/project_masters/retis_grotthuss
+engine rgen = rgen
+engine type = external
+engine input_files conf = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/conf.gro
+engine input_files input_o = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp
+engine input_files topology = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.top
+engine input_files index = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/index.ndx
+tis freq = 0.5
+tis maxlength = 50000
+tis aimless = True
+tis allowmaxlength = False
+tis zero_momentum = False
+tis rescale_energy = False
+tis sigma_v = -1
+tis seed = 0
+tis shooting_move = sh
+tis high_accept = False
+tis rgen = rgen
+tis shooting_moves = []
+tis mirror_freq = 0
+tis target_freq = 0
+tis target_indices = []
+tis ensemble_number = 4
+tis detect = 0.1105
+retis swapfreq = 0.5
+retis relative_shoots = None
+retis nullmoves = True
+retis swapsimul = True
+initial-path method = load
+initial-path load_folder = load
+orderparameter class = WaterAutoionization
+orderparameter module = orderp_grotthuss.py
+orderparameter name = Order Parameter
+output pathensemble-file = 1
+output order-file = 1
+output energy-file = 1
+output trajectory-file = 50
+output backup = append
+output cross-file = 1
+output restart-file = 1
+output screen = 10
+particles type = external
+analysis blockskip = 1
+analysis bins = 100
+analysis maxblock = 1000
+analysis maxordermsd = -1
+analysis ngrid = 1001
+analysis plot plotter = mpl
+analysis plot output = png
+analysis plot style = pyretis
+analysis report = ['latex', 'rst', 'html']
+analysis skipcross = 1000
+analysis txt-output = txt.gz
+analysis tau_ref_bin = []
+analysis skip = 0
+interface = 0.11
+
+Ensemble
+--------
+heading = {'text': '; PyRETIS input for water autoionization / Grotthuss initiation detection\n; Based on: Moqadam et al., PNAS 2018\n;\n; ORDER PARAMETER: λ = largest O-H bond distance in system (nm)\n; Paper uses AIMD with BLYP/DZVP, 32 waters, 300 K, NVE\n; We use SPC/Fw, 1000 waters, 300 K, NPT\n;\n; INTERFACES:\n;   Paper (AIMD, Angstrom): 1.07, 1.10, 1.13, 1.16, 1.19, 1.22 ...\n;   Here (nm, SPC/Fw):      0.107, 0.109, 0.111, 0.113, 0.115, 0.117, 0.120\n;\n;   SPC/Fw O-H equilibrium = 0.1012 nm, fluctuates ±0.005 nm typically\n;   Interfaces cover the tail of the distribution up to stretched bonds\n;   The "reactive initiation" threshold from paper = 1.15 Å = 0.115 nm\n;\n; KEY RESULT FROM PAPER (Fig. 3, 4, 5):\n;   When λ crosses 1.15-1.16 Å (0.115-0.116 nm), the trajectory outcome\n;   is predicted by: w4, q (tetrahedral OP), na (H-bonds accepted), qcos\n;   The ML classifier (grotthuss_ml_classifier.py) computes these CVs\n;   from the accepted PyRETIS paths.\n;\n; IMPORTANT NOTE:\n;   With classical SPC/Fw, bonds cannot break → true autoionization\n;   cannot occur. The simulation captures initiation conditions only.\n;   For full reactive dynamics, replace GROMACS with CP2K+BLYP or\n;   ASE+MACE-MP-0 (see documentation).\nRetis Water Autoionization - Moqadam 2018\n=========================================='}
+simulation task = retis
+simulation steps = 500
+simulation interfaces = [0.1085, 0.1105, 0.1115]
+simulation zero_left = 0.1078
+simulation exe_path = /home/ula/pyretis_run/project_masters/retis_grotthuss
+simulation rgen = rgen
+simulation priority_shooting = False
+simulation flux = True
+simulation zero_ensemble = True
+system units = gromacs
+system dimensions = 3
+system temperature = 1.0
+engine class = gromacs2
+engine gmx = gmx
+engine mdrun = gmx mdrun -ntmpi 1 -ntomp 8
+engine input_path = gromacs_input
+engine timestep = 0.001
+engine subcycles = 5000
+engine gmx_format = gro
+engine maxwarn = 1
+engine exe_path = /home/ula/pyretis_run/project_masters/retis_grotthuss
+engine rgen = rgen
+engine type = external
+engine input_files conf = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/conf.gro
+engine input_files input_o = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp
+engine input_files topology = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.top
+engine input_files index = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/index.ndx
+tis freq = 0.5
+tis maxlength = 50000
+tis aimless = True
+tis allowmaxlength = False
+tis zero_momentum = False
+tis rescale_energy = False
+tis sigma_v = -1
+tis seed = 0
+tis shooting_move = sh
+tis high_accept = False
+tis rgen = rgen
+tis shooting_moves = []
+tis mirror_freq = 0
+tis target_freq = 0
+tis target_indices = []
+tis ensemble_number = 5
+tis detect = 0.111
+retis swapfreq = 0.5
+retis relative_shoots = None
+retis nullmoves = True
+retis swapsimul = True
+initial-path method = load
+initial-path load_folder = load
+orderparameter class = WaterAutoionization
+orderparameter module = orderp_grotthuss.py
+orderparameter name = Order Parameter
+output pathensemble-file = 1
+output order-file = 1
+output energy-file = 1
+output trajectory-file = 50
+output backup = append
+output cross-file = 1
+output restart-file = 1
+output screen = 10
+particles type = external
+analysis blockskip = 1
+analysis bins = 100
+analysis maxblock = 1000
+analysis maxordermsd = -1
+analysis ngrid = 1001
+analysis plot plotter = mpl
+analysis plot output = png
+analysis plot style = pyretis
+analysis report = ['latex', 'rst', 'html']
+analysis skipcross = 1000
+analysis txt-output = txt.gz
+analysis tau_ref_bin = []
+analysis skip = 0
+interface = 0.1105
+
+Ensemble
+--------
+heading = {'text': '; PyRETIS input for water autoionization / Grotthuss initiation detection\n; Based on: Moqadam et al., PNAS 2018\n;\n; ORDER PARAMETER: λ = largest O-H bond distance in system (nm)\n; Paper uses AIMD with BLYP/DZVP, 32 waters, 300 K, NVE\n; We use SPC/Fw, 1000 waters, 300 K, NPT\n;\n; INTERFACES:\n;   Paper (AIMD, Angstrom): 1.07, 1.10, 1.13, 1.16, 1.19, 1.22 ...\n;   Here (nm, SPC/Fw):      0.107, 0.109, 0.111, 0.113, 0.115, 0.117, 0.120\n;\n;   SPC/Fw O-H equilibrium = 0.1012 nm, fluctuates ±0.005 nm typically\n;   Interfaces cover the tail of the distribution up to stretched bonds\n;   The "reactive initiation" threshold from paper = 1.15 Å = 0.115 nm\n;\n; KEY RESULT FROM PAPER (Fig. 3, 4, 5):\n;   When λ crosses 1.15-1.16 Å (0.115-0.116 nm), the trajectory outcome\n;   is predicted by: w4, q (tetrahedral OP), na (H-bonds accepted), qcos\n;   The ML classifier (grotthuss_ml_classifier.py) computes these CVs\n;   from the accepted PyRETIS paths.\n;\n; IMPORTANT NOTE:\n;   With classical SPC/Fw, bonds cannot break → true autoionization\n;   cannot occur. The simulation captures initiation conditions only.\n;   For full reactive dynamics, replace GROMACS with CP2K+BLYP or\n;   ASE+MACE-MP-0 (see documentation).\nRetis Water Autoionization - Moqadam 2018\n=========================================='}
+simulation task = retis
+simulation steps = 500
+simulation interfaces = [0.1085, 0.111, 0.1115]
+simulation zero_left = 0.1078
+simulation exe_path = /home/ula/pyretis_run/project_masters/retis_grotthuss
+simulation rgen = rgen
+simulation priority_shooting = False
+simulation flux = True
+simulation zero_ensemble = True
+system units = gromacs
+system dimensions = 3
+system temperature = 1.0
+engine class = gromacs2
+engine gmx = gmx
+engine mdrun = gmx mdrun -ntmpi 1 -ntomp 8
+engine input_path = gromacs_input
+engine timestep = 0.001
+engine subcycles = 5000
+engine gmx_format = gro
+engine maxwarn = 1
+engine exe_path = /home/ula/pyretis_run/project_masters/retis_grotthuss
+engine rgen = rgen
+engine type = external
+engine input_files conf = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/conf.gro
+engine input_files input_o = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp
+engine input_files topology = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.top
+engine input_files index = /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/index.ndx
+tis freq = 0.5
+tis maxlength = 50000
+tis aimless = True
+tis allowmaxlength = False
+tis zero_momentum = False
+tis rescale_energy = False
+tis sigma_v = -1
+tis seed = 0
+tis shooting_move = sh
+tis high_accept = False
+tis rgen = rgen
+tis shooting_moves = []
+tis mirror_freq = 0
+tis target_freq = 0
+tis target_indices = []
+tis ensemble_number = 6
+tis detect = 0.1115
+retis swapfreq = 0.5
+retis relative_shoots = None
+retis nullmoves = True
+retis swapsimul = True
+initial-path method = load
+initial-path load_folder = load
+orderparameter class = WaterAutoionization
+orderparameter module = orderp_grotthuss.py
+orderparameter name = Order Parameter
+output pathensemble-file = 1
+output order-file = 1
+output energy-file = 1
+output trajectory-file = 50
+output backup = append
+output cross-file = 1
+output restart-file = 1
+output screen = 10
+particles type = external
+analysis blockskip = 1
+analysis bins = 100
+analysis maxblock = 1000
+analysis maxordermsd = -1
+analysis ngrid = 1001
+analysis plot plotter = mpl
+analysis plot output = png
+analysis plot style = pyretis
+analysis report = ['latex', 'rst', 'html']
+analysis skipcross = 1000
+analysis txt-output = txt.gz
+analysis tau_ref_bin = []
+analysis skip = 0
+interface = 0.111
+
+Analysis settings
+-----------------
+blockskip = 1
+bins = 100
+maxblock = 1000
+maxordermsd = -1
+ngrid = 1001
+plot = {'output': 'png', 'plotter': 'mpl', 'style': 'pyretis'}
+report = ['latex', 'rst', 'html']
+skipcross = 1000
+txt-output = 'txt.gz'
+tau_ref_bin = []
+skip = 0

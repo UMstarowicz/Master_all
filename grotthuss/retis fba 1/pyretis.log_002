@@ -1,0 +1,1761 @@
+[INFO]: 
+        
+          _______                                     _______________
+         /   ___ \       _____  ____  ____________   / __        ___/
+        /_/\ \_/ /_  __  \  _ \/ __/ /_  _/ / ___/  /_/ / // // /
+           /  __  / / /  / /_)  _/    / // /\ \        / // // / __
+          / /   \ \/ /  / _  \ /__   / // /__\ \   ___/ // // /_/ /
+         /_/    _\  /  /_/ |_|___/  /_//_/_____/  /______________/
+               /___/
+        
+[INFO]: PyRETIS version: 3.0.1
+[INFO]: Start of execution: 27.03.2026 23:46:58
+[INFO]: Python version: 3.12.3
+[INFO]: Running in directory: /home/ula/pyretis_run/project_masters/retis_grotthuss
+[INFO]: Input file: retis.rst
+[INFO]: Log file: pyretis.log
+[INFO]: Reading input settings from: retis.rst
+[INFO]: Set up and create simulation.
+[INFO]: 
+        CREATING  ENSEMBLE  0
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Extra file index.ndx not present in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Largest O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  1
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Extra file index.ndx not present in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Largest O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  2
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Extra file index.ndx not present in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Largest O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  3
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Extra file index.ndx not present in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Largest O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  4
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Extra file index.ndx not present in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Largest O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  5
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Extra file index.ndx not present in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Largest O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  6
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Extra file index.ndx not present in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Largest O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Created simulation:
+        RETIS simulation
+        Ensembles:
+        [0^-]: Interfaces: (0.1078, 0.1085, 0.1085)
+        [0^+]: Interfaces: (0.1085, 0.1085, 0.1115)
+        [1^+]: Interfaces: (0.1085, 0.109, 0.1115)
+        [2^+]: Interfaces: (0.1085, 0.1095, 0.1115)
+        [3^+]: Interfaces: (0.1085, 0.11, 0.1115)
+        [4^+]: Interfaces: (0.1085, 0.1105, 0.1115)
+        [5^+]: Interfaces: (0.1085, 0.111, 0.1115)
+        Number of steps to do: 500
+[INFO]: Setup for simulation "retis" is done.
+[INFO]: Full simulation settings written to: /home/ula/pyretis_run/project_masters/retis_grotthuss/out.rst
+[INFO]: Backup existing file "/home/ula/pyretis_run/project_masters/retis_grotthuss/out.rst" to "/home/ula/pyretis_run/project_masters/retis_grotthuss/out.rst_001"
+[INFO]: Creating output directories for path_ensemble [0^-]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/000" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/000/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/000/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/000/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [0^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/001" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/001/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/001/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/001/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [1^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/002" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/002/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/002/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/002/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [2^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/003" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/003/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/003/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/003/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [3^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/004" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/004/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/004/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/004/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [4^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/005" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/005/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/005/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/005/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [5^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/006" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/006/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/006/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_grotthuss/006/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Initialising retis simulation. 
+[INFO]: Initialising path ensembles:
+[INFO]: Initiation method "load" selected
+[INFO]: Recalculating order parameters for input path.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Loading data for path path ensemble [0^-]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/000/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Found initial path for [0^-]
+[INFO]: Path with length 97 (max: None)
+        Order parameter max: (0.108503, 0)
+        Order parameter min: (0.107815, 83)
+        Start 0.108503
+        End 0.108503
+        Status: The path has been accepted
+        Generated: Path was loaded from unformatted external file(s)
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [0^+]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/001/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[CRITICAL]: Initial path for [0^+] starts at the wrong interface! Initial path for [0^+] ends at the wrong interface!
+[INFO]: Sorting input files
+[INFO]: Found initial path for [0^+]
+[INFO]: Path with length 408 (max: None)
+        Order parameter max: (0.111342, 405)
+        Order parameter min: (0.10849, 0)
+        Start 0.10849
+        End 0.10849
+        Status: The path has been accepted
+        Generated: Path was loaded from unformatted external file(s)
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [1^+]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/002/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[CRITICAL]: Initial path for [1^+] starts at the wrong interface! Initial path for [1^+] ends at the wrong interface!
+[INFO]: Sorting input files
+[INFO]: Found initial path for [1^+]
+[INFO]: Path with length 272 (max: None)
+        Order parameter max: (0.111342, 269)
+        Order parameter min: (0.10849, 0)
+        Start 0.10849
+        End 0.10849
+        Status: The path has been accepted
+        Generated: Path was loaded from unformatted external file(s)
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [2^+]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/003/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[CRITICAL]: Initial path for [2^+] starts at the wrong interface! Initial path for [2^+] ends at the wrong interface!
+[INFO]: Sorting input files
+[INFO]: Found initial path for [2^+]
+[INFO]: Path with length 135 (max: None)
+        Order parameter max: (0.111342, 132)
+        Order parameter min: (0.10849, 0)
+        Start 0.10849
+        End 0.10849
+        Status: The path has been accepted
+        Generated: Path was loaded from unformatted external file(s)
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [3^+]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/004/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[CRITICAL]: Initial path for [3^+] starts at the wrong interface! Initial path for [3^+] ends at the wrong interface!
+[INFO]: Sorting input files
+[INFO]: Found initial path for [3^+]
+[INFO]: Path with length 56 (max: None)
+        Order parameter max: (0.111342, 53)
+        Order parameter min: (0.10849, 0)
+        Start 0.10849
+        End 0.10849
+        Status: The path has been accepted
+        Generated: Path was loaded from unformatted external file(s)
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [4^+]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/005/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[CRITICAL]: Initial path for [4^+] starts at the wrong interface! Initial path for [4^+] ends at the wrong interface!
+[INFO]: Sorting input files
+[INFO]: Found initial path for [4^+]
+[INFO]: Path with length 23 (max: None)
+        Order parameter max: (0.111342, 20)
+        Order parameter min: (0.10849, 0)
+        Start 0.10849
+        End 0.10849
+        Status: The path has been accepted
+        Generated: Path was loaded from unformatted external file(s)
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [5^+]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/006/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[CRITICAL]: Initial path for [5^+] starts at the wrong interface! Initial path for [5^+] ends at the wrong interface!
+[INFO]: Sorting input files
+[INFO]: Found initial path for [5^+]
+[INFO]: Path with length 9 (max: None)
+        Order parameter max: (0.111342, 6)
+        Order parameter min: (0.10849, 0)
+        Start 0.10849
+        End 0.10849
+        Status: The path has been accepted
+        Generated: Path was loaded from unformatted external file(s)
+        Weight: 1.0
+[INFO]: Initiation done. Starting retis simulation. 
+[INFO]:  retis step. Cycle 1
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108467, 65
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109713, 324
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110553, 252
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110331, 104
+[INFO]: The move was rejected! (BWI)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110132, 10
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111342, 20
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111342, 6
+[INFO]: The move was rejected! (BWI)
+[INFO]:  retis step. Cycle 2
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [5^+]
+[INFO]:  retis step. Cycle 3
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [5^+]
+[INFO]:  retis step. Cycle 4
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 5
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [5^+]
+[INFO]:  retis step. Cycle 6
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108466, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108670, 5
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110060, 4
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108894, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108503, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110005, 83
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110258, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 7
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 8
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 9
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 10
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108466, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110060, 4
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108540, 19
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111153, 3
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108894, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109065, 5
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108841, 7
+[INFO]: The move was accepted!
+[INFO]:  retis step. Cycle 11
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 12
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 13
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108466, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109099, 10
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109079, 12
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108516, 1
+[INFO]: The move was rejected! (KOB)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109319, 4
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109287, 10
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108710, 12
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 14
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [5^+]
+[INFO]:  retis step. Cycle 15
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 16
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [5^+]
+[INFO]:  retis step. Cycle 17
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [5^+]
+[INFO]:  retis step. Cycle 18
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 19
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [5^+]
+[INFO]:  retis step. Cycle 20
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 21
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 22
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 23
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 24
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]:  retis step. Cycle 25
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108466, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109316, 3
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108617, 3
+[INFO]: The move was rejected! (KOB)
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108516, 10
+[INFO]: The move was rejected! (KOB)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109046, 3
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108856, 12
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109238, 15
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 26
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 27
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 28
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]:  retis step. Cycle 29
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 30
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 31
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [5^+]
+[INFO]:  retis step. Cycle 32
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108466, 1
+[INFO]: The move was rejected! (BWI)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109534, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108676, 9
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109911, 4
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108975, 12
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109046, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111000, 9
+[INFO]: The move was accepted!
+[INFO]:  retis step. Cycle 33
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108466, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109067, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110201, 2
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109841, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108975, 12
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109046, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108741, 15
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 34
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was rejected! (BWI)
+[INFO]:  retis step. Cycle 35
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108466, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110918, 2
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109218, 5
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109841, 2
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108928, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110345, 2
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110856, 7
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 36
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [5^+]
+[INFO]:  retis step. Cycle 37
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108466, 1
+[INFO]: The move was rejected! (0-L)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108661, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109841, 3
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108511, 11
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109046, 3
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109565, 6
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108524, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 38
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was accepted.
+[INFO]: Null move for: [5^+]
+[INFO]:  retis step. Cycle 39
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108301, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109115, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110186, 28
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109808, 2
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109159, 5
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110345, 2
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109608, 8
+[INFO]: The move was rejected! (BWI)
+[INFO]:  retis step. Cycle 40
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108301, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108652, 2
+[INFO]: The move was rejected! (KOB)
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109500, 3
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109808, 2
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109555, 3
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110345, 2
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109705, 5
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 41
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 42
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was rejected! (BWI)
+[INFO]:  retis step. Cycle 43
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was rejected! (BWI)
+[INFO]:  retis step. Cycle 44
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was rejected! (BWI)
+[INFO]:  retis step. Cycle 45
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108301, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108977, 9
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109022, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109841, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108889, 18
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110345, 2
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109482, 14
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 46
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 47
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 48
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108301, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108546, 7
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108976, 3
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109808, 2
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109234, 15
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110345, 2
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110373, 12
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 49
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108301, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109178, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109022, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108926, 3
+[INFO]: The move was rejected! (KOB)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.108872, 4
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.109046, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110373, 12
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 50
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[ERROR]: "FileNotFoundError: (2, 'No such file or directory')".
+[ERROR]: Traceback (most recent call last):
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisrun.py", line 522, in main
+             run(simulation, settings, progress=progress)
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisrun.py", line 296, in run_path_simulation
+             for _ in tqd(sim.run(), initial=sim.cycle['startcycle'],
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/tqdm/std.py", line 1181, in __iter__
+             for obj in iterable:
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/simulation/path_simulation.py", line 399, in run
+             result = self.step()
+                      ^^^^^^^^^^^
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/simulation/path_simulation.py", line 365, in step
+             task.output(result)
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/simulationio.py", line 359, in output
+             return self.writer.output(step['step'], result)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/inout/archive.py", line 228, in output
+             shutil.copyfile(file_src, target)
+           File "/usr/lib/python3.12/shutil.py", line 260, in copyfile
+             with open(src, 'rb') as fsrc:
+                  ^^^^^^^^^^^^^^^
+         FileNotFoundError: [Errno 2] No such file or directory: '/home/ula/pyretis_run/project_masters/retis_grotthuss/000/generate/second_last.gro'
+         
+[INFO]: Execution ended at step 50
+[INFO]: Full simulation settings written to: /home/ula/pyretis_run/project_masters/retis_grotthuss/out.rst
+[INFO]: End of PyRETIS execution: 28.03.2026 00:42:07
+[INFO]: PyRETIS references:
+        -------------------
+        [1] A. Lervik, E. Riccardi and T. S. van Erp, J. Comput. Chem., 2017
+            doi: https://dx.doi.org/10.1002/jcc.24900
+        [2] E. Riccardi, A. Lervik, S. Roet, O. Aarøen and T. S. van Erp,
+            J. Comput. Chem., 2019, doi: https://dx.doi.org/10.1002/jcc.26112
+        [3] W. Vervust, D. T. Zhang, A. Ghysels, S. Roet, T. S. van Erp, E. Riccardi,
+            J. Comput. Chem. 2024, 1. https://doi.org/10.1002/jcc.27319
+[INFO]: http://www.pyretis.org

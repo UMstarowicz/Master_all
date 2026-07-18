@@ -1,0 +1,79 @@
+[INFO]: 
+        
+          _______                                     _______________
+         /   ___ \       _____  ____  ____________   / __        ___/
+        /_/\ \_/ /_  __  \  _ \/ __/ /_  _/ / ___/  /_/ / // // /
+           /  __  / / /  / /_)  _/    / // /\ \        / // // / __
+          / /   \ \/ /  / _  \ /__   / // /__\ \   ___/ // // /_/ /
+         /_/    _\  /  /_/ |_|___/  /_//_/_____/  /______________/
+               /___/
+        
+[INFO]: PyRETIS version: 3.0.1
+[INFO]: Start of execution: 27.03.2026 23:44:41
+[INFO]: Python version: 3.12.3
+[INFO]: Running in directory: /home/ula/pyretis_run/project_masters/retis_grotthuss
+[INFO]: Input file: retis.rst
+[INFO]: Log file: pyretis.log
+[INFO]: Reading input settings from: retis.rst
+[INFO]: Set up and create simulation.
+[INFO]: 
+        CREATING  ENSEMBLE  0
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Extra file index.ndx not present in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_grotthuss/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Water autoionization OP (largest O-H distance)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[ERROR]: "ValueError: ('The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()',)".
+[ERROR]: Traceback (most recent call last):
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisrun.py", line 518, in main
+             run, simulation, settings = set_up_simulation(infile, exe_dir)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisrun.py", line 435, in set_up_simulation
+             sim = create_simulation(sim_settings)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/setup/createsimulation.py", line 526, in create_simulation
+             simulation = sim_map[sim_type](settings)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/setup/createsimulation.py", line 393, in create_retis_simulation
+             ensembles = create_ensembles(settings)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/setup/createsimulation.py", line 238, in create_ensembles
+             ensembles.append(create_ensemble(settings['ensemble'][i]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/setup/createsimulation.py", line 157, in create_ensemble
+             ensemble['system'].order = engine.calculate_order(ensemble)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/engines/external.py", line 430, in calculate_order
+             return order_function.calculate(system)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis_run/project_masters/retis_grotthuss/orderp_grotthuss.py", line 94, in calculate
+             d_oh1 = self._min_image(h1_pos - o_pos, box)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis_run/project_masters/retis_grotthuss/orderp_grotthuss.py", line 122, in _min_image
+             if L > 0:
+                ^^^^^
+         ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+         
+[INFO]: Full simulation settings written to: /home/ula/pyretis_run/project_masters/retis_grotthuss/out.rst
+[INFO]: End of PyRETIS execution: 27.03.2026 23:44:41
+[INFO]: PyRETIS references:
+        -------------------
+        [1] A. Lervik, E. Riccardi and T. S. van Erp, J. Comput. Chem., 2017
+            doi: https://dx.doi.org/10.1002/jcc.24900
+        [2] E. Riccardi, A. Lervik, S. Roet, O. Aarøen and T. S. van Erp,
+            J. Comput. Chem., 2019, doi: https://dx.doi.org/10.1002/jcc.26112
+        [3] W. Vervust, D. T. Zhang, A. Ghysels, S. Roet, T. S. van Erp, E. Riccardi,
+            J. Comput. Chem. 2024, 1. https://doi.org/10.1002/jcc.27319
+[INFO]: http://www.pyretis.org
