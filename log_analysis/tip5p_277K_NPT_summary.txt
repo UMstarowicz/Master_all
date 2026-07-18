@@ -1,0 +1,5 @@
+Temperature mean [K]: 277.182863
+Temperature std [K]: 5.424115
+Density mean [g/mL]: 0.982253
+Density std [g/mL]: 0.008217
+Potential energy mean [kJ/mol]: -38161.018479
