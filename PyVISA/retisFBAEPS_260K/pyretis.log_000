@@ -1,0 +1,1021 @@
+[INFO]: 
+        
+          _______                                     _______________
+         /   ___ \       _____  ____  ____________   / __        ___/
+        /_/\ \_/ /_  __  \  _ \/ __/ /_  _/ / ___/  /_/ / // // /
+           /  __  / / /  / /_)  _/    / // /\ \        / // // / __
+          / /   \ \/ /  / _  \ /__   / // /__\ \   ___/ // // /_/ /
+         /_/    _\  /  /_/ |_|___/  /_//_/_____/  /______________/
+               /___/
+        
+[INFO]: PyRETIS version: 3.0.1
+[INFO]: Start of execution: 10.05.2026 18:05:24
+[INFO]: Python version: 3.12.3
+[INFO]: Running in directory: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps
+[INFO]: Input file: retis_prod.rst
+[INFO]: Log file: pyretis.log
+[INFO]: Reading input settings from: retis_prod.rst
+[INFO]: Set up and create simulation.
+[INFO]: 
+        CREATING  ENSEMBLE  0
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  1
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  2
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  3
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  4
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  5
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  6
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  7
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  8
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  9
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  10
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  11
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  12
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  13
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  14
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  15
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  16
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  17
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  18
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  19
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  20
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  21
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  22
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Created simulation:
+        RETIS simulation
+        Ensembles:
+        [0^-]: Interfaces: (0.1108, 0.111, 0.111)
+        [0^+]: Interfaces: (0.111, 0.111, 0.125)
+        [1^+]: Interfaces: (0.111, 0.1115, 0.125)
+        [2^+]: Interfaces: (0.111, 0.1125, 0.125)
+        [3^+]: Interfaces: (0.111, 0.113, 0.125)
+        [4^+]: Interfaces: (0.111, 0.1135, 0.125)
+        [5^+]: Interfaces: (0.111, 0.114, 0.125)
+        [6^+]: Interfaces: (0.111, 0.1145, 0.125)
+        [7^+]: Interfaces: (0.111, 0.1148, 0.125)
+        [8^+]: Interfaces: (0.111, 0.1151, 0.125)
+        [9^+]: Interfaces: (0.111, 0.1155, 0.125)
+        [10^+]: Interfaces: (0.111, 0.1159, 0.125)
+        [11^+]: Interfaces: (0.111, 0.1163, 0.125)
+        [12^+]: Interfaces: (0.111, 0.1167, 0.125)
+        [13^+]: Interfaces: (0.111, 0.1172, 0.125)
+        [14^+]: Interfaces: (0.111, 0.1178, 0.125)
+        [15^+]: Interfaces: (0.111, 0.1185, 0.125)
+        [16^+]: Interfaces: (0.111, 0.1193, 0.125)
+        [17^+]: Interfaces: (0.111, 0.1202, 0.125)
+        [18^+]: Interfaces: (0.111, 0.1212, 0.125)
+        [19^+]: Interfaces: (0.111, 0.1222, 0.125)
+        [20^+]: Interfaces: (0.111, 0.123, 0.125)
+        [21^+]: Interfaces: (0.111, 0.124, 0.125)
+        Number of steps to do: 20000
+[INFO]: Setup for simulation "retis" is done.
+[INFO]: Full simulation settings written to: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/out.rst
+[INFO]: Creating output directories for path_ensemble [0^-]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/000"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/000/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/000/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/000/traj"
+[INFO]: Creating output directories for path_ensemble [0^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/001"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/001/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/001/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/001/traj"
+[INFO]: Creating output directories for path_ensemble [1^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/002"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/002/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/002/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/002/traj"
+[INFO]: Creating output directories for path_ensemble [2^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/003"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/003/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/003/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/003/traj"
+[INFO]: Creating output directories for path_ensemble [3^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/004"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/004/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/004/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/004/traj"
+[INFO]: Creating output directories for path_ensemble [4^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/005"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/005/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/005/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/005/traj"
+[INFO]: Creating output directories for path_ensemble [5^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/006"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/006/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/006/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/006/traj"
+[INFO]: Creating output directories for path_ensemble [6^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/007"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/007/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/007/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/007/traj"
+[INFO]: Creating output directories for path_ensemble [7^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/008"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/008/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/008/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/008/traj"
+[INFO]: Creating output directories for path_ensemble [8^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/009"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/009/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/009/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/009/traj"
+[INFO]: Creating output directories for path_ensemble [9^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/010"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/010/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/010/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/010/traj"
+[INFO]: Creating output directories for path_ensemble [10^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/011"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/011/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/011/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/011/traj"
+[INFO]: Creating output directories for path_ensemble [11^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/012"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/012/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/012/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/012/traj"
+[INFO]: Creating output directories for path_ensemble [12^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/013"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/013/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/013/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/013/traj"
+[INFO]: Creating output directories for path_ensemble [13^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/014"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/014/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/014/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/014/traj"
+[INFO]: Creating output directories for path_ensemble [14^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/015"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/015/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/015/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/015/traj"
+[INFO]: Creating output directories for path_ensemble [15^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/016"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/016/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/016/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/016/traj"
+[INFO]: Creating output directories for path_ensemble [16^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/017"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/017/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/017/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/017/traj"
+[INFO]: Creating output directories for path_ensemble [17^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/018"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/018/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/018/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/018/traj"
+[INFO]: Creating output directories for path_ensemble [18^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/019"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/019/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/019/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/019/traj"
+[INFO]: Creating output directories for path_ensemble [19^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/020"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/020/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/020/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/020/traj"
+[INFO]: Creating output directories for path_ensemble [20^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/021"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/021/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/021/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/021/traj"
+[INFO]: Creating output directories for path_ensemble [21^+]
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/022"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/022/accepted"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/022/generate"
+[INFO]: Created directory: "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/022/traj"
+[INFO]: Initialising retis simulation. 
+[INFO]: Initialising path ensembles:
+[INFO]: Initiation method "load" selected
+[INFO]: Loading data for path path ensemble [0^-]:
+[CRITICAL]: Could not open file "load/000/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[INFO]: Found initial path for [0^-]
+[INFO]: Path with length 9 (max: None)
+        Order parameter max: (0.111019, 0)
+        Order parameter min: (0.110835, 6)
+        Start 0.111019
+        End 0.111019
+        Status: The path has been accepted
+        Generated: Path was loaded from unformatted external file(s)
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [0^+]:
+[CRITICAL]: Could not open file "load/001/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Found initial path for [0^+]
+[INFO]: Path with length 33 (max: None)
+        Order parameter max: (0.114086, 1)
+        Order parameter min: (0.110032, 0)
+        Start 0.110032
+        End 0.110659
+        Status: The path has been accepted
+        Generated: Path was loaded from formatted external file(s)
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [1^+]:
+[CRITICAL]: Could not open file "load/002/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Found initial path for [1^+]
+[INFO]: Path with length 33 (max: None)
+        Order parameter max: (0.114086, 1)
+        Order parameter min: (0.110032, 0)
+        Start 0.110032
+        End 0.110659
+        Status: The path has been accepted
+        Generated: Path was loaded from formatted external file(s)
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [2^+]:
+[CRITICAL]: Could not open file "load/003/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Found initial path for [2^+]
+[INFO]: Path with length 33 (max: None)
+        Order parameter max: (0.114086, 1)
+        Order parameter min: (0.110032, 0)
+        Start 0.110032
+        End 0.110659
+        Status: The path has been accepted
+        Generated: Path was loaded from formatted external file(s)
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [3^+]:
+[CRITICAL]: Could not open file "load/004/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Found initial path for [3^+]
+[INFO]: Path with length 33 (max: None)
+        Order parameter max: (0.114086, 1)
+        Order parameter min: (0.110032, 0)
+        Start 0.110032
+        End 0.110659
+        Status: The path has been accepted
+        Generated: Path was loaded from formatted external file(s)
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [4^+]:
+[CRITICAL]: Could not open file "load/005/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Found initial path for [4^+]
+[INFO]: Path with length 33 (max: None)
+        Order parameter max: (0.114086, 1)
+        Order parameter min: (0.110032, 0)
+        Start 0.110032
+        End 0.110659
+        Status: The path has been accepted
+        Generated: Path was loaded from formatted external file(s)
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [5^+]:
+[CRITICAL]: Could not open file "load/006/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Found initial path for [5^+]
+[INFO]: Path with length 33 (max: None)
+        Order parameter max: (0.114086, 1)
+        Order parameter min: (0.110032, 0)
+        Start 0.110032
+        End 0.110659
+        Status: The path has been accepted
+        Generated: Path was loaded from formatted external file(s)
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [6^+]:
+[CRITICAL]: Could not open file "load/007/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [6^+] ends at the wrong interface! Initial path for [6^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/007 does not satisfy the relative ensemble (7) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1145, and 0.125.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1145
+[INFO]: Crossed middle interface: 0.11498260738042074 -> 0.11386834503056593 | 0.1145
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [6^+]
+[INFO]: Path with length 25 (max: 10000)
+        Order parameter max: (0.11498265261633249, 2)
+        Order parameter min: (0.11054478297994426, 0)
+        Start 0.11054478297994426
+        End 0.11086067245139199
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [7^+]:
+[CRITICAL]: Could not open file "load/008/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [7^+] ends at the wrong interface! Initial path for [7^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/008 does not satisfy the relative ensemble (8) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1148, and 0.125.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1148
+[INFO]: Crossed middle interface: 0.11498260738042074 -> 0.11399999999999999 | 0.1148
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [7^+]
+[INFO]: Path with length 17 (max: 10000)
+        Order parameter max: (0.11498265261633249, 14)
+        Order parameter min: (0.11066897562114912, 16)
+        Start 0.11094826466274905
+        End 0.11066897562114912
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [8^+]:
+[CRITICAL]: Could not open file "load/009/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [8^+] ends at the wrong interface! Initial path for [8^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/009 does not satisfy the relative ensemble (9) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1151, and 0.125.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1151
+[INFO]: Crossed middle interface: 0.11498260738042074 -> 0.11543396380615215 | 0.1151
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [8^+]
+[INFO]: Path with length 19 (max: 10000)
+        Order parameter max: (0.11543402411616602, 9)
+        Order parameter min: (0.11072253646922427, 18)
+        Start 0.11098040452554386
+        End 0.11072253646922427
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [9^+]:
+[CRITICAL]: Could not open file "load/010/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [9^+] ends at the wrong interface! Initial path for [9^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/010 does not satisfy the relative ensemble (10) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1155, and 0.125.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1155
+[INFO]: Crossed middle interface: 0.11498260738042074 -> 0.11571084650973744 | 0.1155
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [9^+]
+[INFO]: Path with length 15 (max: 10000)
+        Order parameter max: (0.1157107983339281, 5)
+        Order parameter min: (0.11052953318515173, 14)
+        Start 0.11067455393369752
+        End 0.11052953318515173
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [10^+]:
+[CRITICAL]: Could not open file "load/011/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [10^+] ends at the wrong interface! Initial path for [10^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/011 does not satisfy the relative ensemble (11) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1159, and 0.125.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1159
+[INFO]: Crossed middle interface: 0.11516075720487409 -> 0.116447413024077 | 0.1159
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [10^+]
+[INFO]: Path with length 25 (max: 10000)
+        Order parameter max: (0.11718856739825097, 1)
+        Order parameter min: (0.11063551438561758, 0)
+        Start 0.11063551438561758
+        End 0.11074680290921268
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [11^+]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/012/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [11^+] ends at the wrong interface! Initial path for [11^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/012 does not satisfy the relative ensemble (12) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1163, and 0.125.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1163
+[INFO]: Crossed middle interface: 0.11614645926587673 -> 0.11745637488020806 | 0.1163
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [11^+]
+[INFO]: Path with length 13 (max: 10000)
+        Order parameter max: (0.11745639165893165, 11)
+        Order parameter min: (0.11001142422285412, 0)
+        Start 0.11001142422285412
+        End 0.1102745079907767
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [12^+]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/013/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [12^+] ends at the wrong interface! Initial path for [12^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/013 does not satisfy the relative ensemble (13) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1167, and 0.125.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1167
+[INFO]: Crossed middle interface: 0.11624973118248484 -> 0.11681609478149829 | 0.1167
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [12^+]
+[INFO]: Path with length 69 (max: 10000)
+        Order parameter max: (0.11945261388120902, 7)
+        Order parameter min: (0.11024331675115723, 0)
+        Start 0.11024331675115723
+        End 0.11096697023312277
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [13^+]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/014/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [13^+] ends at the wrong interface! Initial path for [13^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/014 does not satisfy the relative ensemble (14) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1172, and 0.125.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1172
+[INFO]: Crossed middle interface: 0.11712386605641081 -> 0.11902100654926433 | 0.1172
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [13^+]
+[INFO]: Path with length 7 (max: 10000)
+        Order parameter max: (0.11902102565144214, 5)
+        Order parameter min: (0.1104650108212428, 0)
+        Start 0.1104650108212428
+        End 0.11055216118884059
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [14^+]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/015/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [14^+] ends at the wrong interface! Initial path for [14^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/015 does not satisfy the relative ensemble (15) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1178, and 0.125.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1178
+[INFO]: Crossed middle interface: 0.11776671855834327 -> 0.1178855377050127 | 0.1178
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [14^+]
+[INFO]: Path with length 32 (max: 10000)
+        Order parameter max: (0.1189514746137374, 15)
+        Order parameter min: (0.11078106188181425, 0)
+        Start 0.11078106188181425
+        End 0.11084286371029999
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [15^+]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/016/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [15^+] ends at the wrong interface! Initial path for [15^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/016 does not satisfy the relative ensemble (16) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1185, and 0.125.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1185
+[INFO]: Crossed middle interface: 0.11847362575695898 -> 0.11879814813371445 | 0.1185
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [15^+]
+[INFO]: Path with length 32 (max: 10000)
+        Order parameter max: (0.11879817201208108, 19)
+        Order parameter min: (0.11065821619663901, 31)
+        Start 0.11086071718011657
+        End 0.11065821619663901
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [16^+]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/017/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [16^+] ends at the wrong interface! Initial path for [16^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/017 does not satisfy the relative ensemble (17) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1193, and 0.125.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1193
+[INFO]: Crossed middle interface: 0.11851582172857765 -> 0.11940686747419509 | 0.1193
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [16^+]
+[INFO]: Path with length 31 (max: 10000)
+        Order parameter max: (0.11940689681159204, 21)
+        Order parameter min: (0.11061285018716203, 0)
+        Start 0.11061285018716203
+        End 0.11083181453265159
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [17^+]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/018/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [17^+] ends at the wrong interface! Initial path for [17^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/018 does not satisfy the relative ensemble (18) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1202, and 0.125.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1202
+[INFO]: Crossed middle interface: 0.12010828447696678 -> 0.1205238565596041 | 0.1202
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [17^+]
+[INFO]: Path with length 16 (max: 10000)
+        Order parameter max: (0.1205239121388127, 14)
+        Order parameter min: (0.11043851221449948, 0)
+        Start 0.11043851221449948
+        End 0.11080786257687239
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Loading data for path path ensemble [18^+]:
+[INFO]: Input Load missing
+[CRITICAL]: Could not open file "load/019/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [18^+] ends at the wrong interface! Initial path for [18^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/019 does not satisfy the relative ensemble (19) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1212, and 0.125.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1212
+[ERROR]: Execution of external program (GROMACS engine) failed!
+[ERROR]: Attempted command: gmx mdrun -ntmpi 1 -ntomp 8 -nb gpu -bonded gpu -s kicked.tpr -deffnm kicked -c kicked.gro
+[ERROR]: Execution directory: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/019/generate
+[ERROR]: Return code from external program: -2
+[ERROR]: STDOUT, see file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/019/generate/stdout.txt
+[ERROR]: STDERR, see file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/019/generate/stderr.txt
+[ERROR]: "RuntimeError: ('Execution of external program (GROMACS engine) failed with command:\n gmx mdrun -ntmpi 1 -ntomp 8 -nb gpu -bonded gpu -s kicked.tpr -deffnm kicked -c kicked.gro.\nReturn code: -2',)".
+[ERROR]: Traceback (most recent call last):
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisrun.py", line 522, in main
+             run(simulation, settings, progress=progress)
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/bin/pyretisrun.py", line 282, in run_path_simulation
+             if not sim.initiate(sim_settings):
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/simulation/path_simulation.py", line 291, in initiate
+             for i_ens, (accept, path, status, path_ensemble) in enumerate(init):
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/initiation/initiate_load.py", line 172, in initiate_load
+             accept, path, status = initiate_path_ensemble_kick(
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/initiation/initiate_kick.py", line 170, in initiate_path_ensemble_kick
+             for attempt in generate_initial_path_kick(ensemble, tis_settings):
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/initiation/initiate_kick.py", line 256, in generate_initial_path_kick
+             left_point, right_point = engine.kick_across_middle(ensemble,
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/engines/external.py", line 507, in kick_across_middle
+             conf = self.step(ensemble['system'], 'kicked')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/engines/gromacs.py", line 658, in step
+             out_mdrun = self._execute_mdrun(out_grompp['tpr'], name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/engines/gromacs.py", line 282, in _execute_mdrun
+             self.execute_command(cmd, cwd=self.exe_dir)
+           File "/home/ula/pyretis-env/lib/python3.12/site-packages/pyretis/engines/external.py", line 330, in execute_command
+             raise RuntimeError(msg)
+         RuntimeError: Execution of external program (GROMACS engine) failed with command:
+          gmx mdrun -ntmpi 1 -ntomp 8 -nb gpu -bonded gpu -s kicked.tpr -deffnm kicked -c kicked.gro.
+         Return code: -2
+         
+[INFO]: Execution ended at step 0
+[INFO]: Full simulation settings written to: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/out.rst
+[INFO]: End of PyRETIS execution: 13.05.2026 00:22:48
+[INFO]: PyRETIS references:
+        -------------------
+        [1] A. Lervik, E. Riccardi and T. S. van Erp, J. Comput. Chem., 2017
+            doi: https://dx.doi.org/10.1002/jcc.24900
+        [2] E. Riccardi, A. Lervik, S. Roet, O. Aarøen and T. S. van Erp,
+            J. Comput. Chem., 2019, doi: https://dx.doi.org/10.1002/jcc.26112
+        [3] W. Vervust, D. T. Zhang, A. Ghysels, S. Roet, T. S. van Erp, E. Riccardi,
+            J. Comput. Chem. 2024, 1. https://doi.org/10.1002/jcc.27319
+[INFO]: http://www.pyretis.org

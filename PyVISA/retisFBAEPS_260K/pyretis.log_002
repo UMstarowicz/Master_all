@@ -1,0 +1,3405 @@
+[INFO]: 
+        
+          _______                                     _______________
+         /   ___ \       _____  ____  ____________   / __        ___/
+        /_/\ \_/ /_  __  \  _ \/ __/ /_  _/ / ___/  /_/ / // // /
+           /  __  / / /  / /_)  _/    / // /\ \        / // // / __
+          / /   \ \/ /  / _  \ /__   / // /__\ \   ___/ // // /_/ /
+         /_/    _\  /  /_/ |_|___/  /_//_/_____/  /______________/
+               /___/
+        
+[INFO]: PyRETIS version: 3.0.1
+[INFO]: Start of execution: 13.05.2026 00:24:12
+[INFO]: Python version: 3.12.3
+[INFO]: Running in directory: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps
+[INFO]: Input file: out.rst
+[INFO]: Log file: pyretis.log
+[INFO]: Reading input settings from: out.rst
+[INFO]: Set up and create simulation.
+[INFO]: 
+        CREATING  ENSEMBLE  0
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  1
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  2
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  3
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  4
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  5
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  6
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  7
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  8
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  9
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  10
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  11
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  12
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  13
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  14
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  15
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  16
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: 
+        CREATING  ENSEMBLE  17
+        =====================
+[INFO]: Initializing unit system.
+[INFO]: Creating system from settings.
+[INFO]: Creating force field.
+[INFO]: Created force field:
+        Force field: Generic force field
+        No potential functions added yet!
+[INFO]: Created units: "gromacs".
+[INFO]: Created GROMACS mdp input from /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/grompp.mdp. You might want to check the input file: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/pyretis.mdp
+[INFO]: Creating ".tpr" for GROMACS in /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input
+[INFO]: GROMACS ".tpr" created: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/gromacs_input/topol.tpr
+[INFO]: Created engine "GROMACS engine" from settings.
+[INFO]: Created main order parameter:
+        Order parameter: "WaterAutoionization"
+        Max O-H distance (nm)
+[INFO]: Periodic settings not given. Assumed True for all directions.
+[INFO]: Created simulation:
+        RETIS simulation
+        Ensembles:
+        [0^-]: Interfaces: (0.1108, 0.111, 0.111)
+        [0^+]: Interfaces: (0.111, 0.111, 0.1202)
+        [1^+]: Interfaces: (0.111, 0.1115, 0.1202)
+        [2^+]: Interfaces: (0.111, 0.1125, 0.1202)
+        [3^+]: Interfaces: (0.111, 0.113, 0.1202)
+        [4^+]: Interfaces: (0.111, 0.1135, 0.1202)
+        [5^+]: Interfaces: (0.111, 0.114, 0.1202)
+        [6^+]: Interfaces: (0.111, 0.1145, 0.1202)
+        [7^+]: Interfaces: (0.111, 0.1148, 0.1202)
+        [8^+]: Interfaces: (0.111, 0.1151, 0.1202)
+        [9^+]: Interfaces: (0.111, 0.1155, 0.1202)
+        [10^+]: Interfaces: (0.111, 0.1159, 0.1202)
+        [11^+]: Interfaces: (0.111, 0.1163, 0.1202)
+        [12^+]: Interfaces: (0.111, 0.1167, 0.1202)
+        [13^+]: Interfaces: (0.111, 0.1172, 0.1202)
+        [14^+]: Interfaces: (0.111, 0.1178, 0.1202)
+        [15^+]: Interfaces: (0.111, 0.1185, 0.1202)
+        [16^+]: Interfaces: (0.111, 0.1193, 0.1202)
+        Number of steps to do: 20000
+[INFO]: Setup for simulation "retis" is done.
+[INFO]: Full simulation settings written to: /home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/out.rst
+[INFO]: Backup existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/out.rst" to "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/out.rst_000"
+[INFO]: Creating output directories for path_ensemble [0^-]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/000" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/000/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/000/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/000/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [0^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/001" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/001/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/001/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/001/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [1^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/002" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/002/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/002/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/002/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [2^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/003" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/003/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/003/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/003/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [3^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/004" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/004/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/004/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/004/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [4^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/005" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/005/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/005/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/005/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [5^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/006" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/006/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/006/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/006/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [6^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/007" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/007/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/007/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/007/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [7^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/008" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/008/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/008/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/008/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [8^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/009" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/009/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/009/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/009/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [9^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/010" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/010/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/010/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/010/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [10^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/011" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/011/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/011/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/011/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [11^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/012" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/012/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/012/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/012/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [12^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/013" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/013/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/013/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/013/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [13^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/014" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/014/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/014/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/014/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [14^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/015" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/015/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/015/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/015/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [15^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/016" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/016/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/016/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/016/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Creating output directories for path_ensemble [16^+]
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/017" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/017/accepted" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/017/generate" already exist.
+[INFO]: Directory "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/017/traj" already exist.
+[INFO]: Disabling output to screen path_ensemble-retis-screen since progress bar is ON
+[INFO]: Initialising retis simulation. 
+[INFO]: Initialising path ensembles:
+[INFO]: Initiation method "load" selected
+[INFO]: Loading data for path path ensemble [0^-]:
+[CRITICAL]: Could not open file "load/000/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[INFO]: Found initial path for [0^-]
+[INFO]: Path with length 9 (max: None)
+        Order parameter max: (0.111019, 0)
+        Order parameter min: (0.110835, 6)
+        Start 0.111019
+        End 0.111019
+        Status: The path has been accepted
+        Generated: Path was loaded from unformatted external file(s)
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/000/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/000/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/000/energy.txt"
+[INFO]: Loading data for path path ensemble [0^+]:
+[CRITICAL]: Could not open file "load/001/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Found initial path for [0^+]
+[INFO]: Path with length 33 (max: None)
+        Order parameter max: (0.114086, 1)
+        Order parameter min: (0.110032, 0)
+        Start 0.110032
+        End 0.110659
+        Status: The path has been accepted
+        Generated: Path was loaded from formatted external file(s)
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/001/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/001/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/001/energy.txt"
+[INFO]: Loading data for path path ensemble [1^+]:
+[CRITICAL]: Could not open file "load/002/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Found initial path for [1^+]
+[INFO]: Path with length 33 (max: None)
+        Order parameter max: (0.114086, 1)
+        Order parameter min: (0.110032, 0)
+        Start 0.110032
+        End 0.110659
+        Status: The path has been accepted
+        Generated: Path was loaded from formatted external file(s)
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/002/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/002/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/002/energy.txt"
+[INFO]: Loading data for path path ensemble [2^+]:
+[CRITICAL]: Could not open file "load/003/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Found initial path for [2^+]
+[INFO]: Path with length 33 (max: None)
+        Order parameter max: (0.114086, 1)
+        Order parameter min: (0.110032, 0)
+        Start 0.110032
+        End 0.110659
+        Status: The path has been accepted
+        Generated: Path was loaded from formatted external file(s)
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/003/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/003/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/003/energy.txt"
+[INFO]: Loading data for path path ensemble [3^+]:
+[CRITICAL]: Could not open file "load/004/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Found initial path for [3^+]
+[INFO]: Path with length 33 (max: None)
+        Order parameter max: (0.114086, 1)
+        Order parameter min: (0.110032, 0)
+        Start 0.110032
+        End 0.110659
+        Status: The path has been accepted
+        Generated: Path was loaded from formatted external file(s)
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/004/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/004/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/004/energy.txt"
+[INFO]: Loading data for path path ensemble [4^+]:
+[CRITICAL]: Could not open file "load/005/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Found initial path for [4^+]
+[INFO]: Path with length 33 (max: None)
+        Order parameter max: (0.114086, 1)
+        Order parameter min: (0.110032, 0)
+        Start 0.110032
+        End 0.110659
+        Status: The path has been accepted
+        Generated: Path was loaded from formatted external file(s)
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/005/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/005/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/005/energy.txt"
+[INFO]: Loading data for path path ensemble [5^+]:
+[CRITICAL]: Could not open file "load/006/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Found initial path for [5^+]
+[INFO]: Path with length 33 (max: None)
+        Order parameter max: (0.114086, 1)
+        Order parameter min: (0.110032, 0)
+        Start 0.110032
+        End 0.110659
+        Status: The path has been accepted
+        Generated: Path was loaded from formatted external file(s)
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/006/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/006/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/006/energy.txt"
+[INFO]: Loading data for path path ensemble [6^+]:
+[CRITICAL]: Could not open file "load/007/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [6^+] ends at the wrong interface! Initial path for [6^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/007 does not satisfy the relative ensemble (7) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1145, and 0.1202.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1145
+[INFO]: Crossed middle interface: 0.11498260738042074 -> 0.11326958991715282 | 0.1145
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [6^+]
+[INFO]: Path with length 21 (max: 10000)
+        Order parameter max: (0.11712051931595362, 5)
+        Order parameter min: (0.11042916442420689, 20)
+        Start 0.1109770938194725
+        End 0.11042916442420689
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/007/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/007/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/007/energy.txt"
+[INFO]: Loading data for path path ensemble [7^+]:
+[CRITICAL]: Could not open file "load/008/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [7^+] ends at the wrong interface! Initial path for [7^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/008 does not satisfy the relative ensemble (8) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1148, and 0.1202.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1148
+[INFO]: Crossed middle interface: 0.11498260738042074 -> 0.1132475165290612 | 0.1148
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [7^+]
+[INFO]: Path with length 5 (max: 10000)
+        Order parameter max: (0.11498265261633249, 2)
+        Order parameter min: (0.11033901834316905, 4)
+        Start 0.11053713055825205
+        End 0.11033901834316905
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/008/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/008/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/008/energy.txt"
+[INFO]: Loading data for path path ensemble [8^+]:
+[CRITICAL]: Could not open file "load/009/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [8^+] ends at the wrong interface! Initial path for [8^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/009 does not satisfy the relative ensemble (9) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1151, and 0.1202.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1151
+[INFO]: Crossed middle interface: 0.11498260738042074 -> 0.11754148203932085 | 0.1151
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [8^+]
+[INFO]: Path with length 16 (max: 10000)
+        Order parameter max: (0.11754150422167035, 14)
+        Order parameter min: (0.11045838180332652, 0)
+        Start 0.11045838180332652
+        End 0.1109963122160722
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/009/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/009/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/009/energy.txt"
+[INFO]: Loading data for path path ensemble [9^+]:
+[CRITICAL]: Could not open file "load/010/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [9^+] ends at the wrong interface! Initial path for [9^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/010 does not satisfy the relative ensemble (10) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1155, and 0.1202.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1155
+[INFO]: Crossed middle interface: 0.11498260738042074 -> 0.1162239218061412 | 0.1155
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [9^+]
+[INFO]: Path with length 26 (max: 10000)
+        Order parameter max: (0.11622398861525048, 11)
+        Order parameter min: (0.11041891294474974, 0)
+        Start 0.11041891294474974
+        End 0.11090937152338379
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/010/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/010/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/010/energy.txt"
+[INFO]: Loading data for path path ensemble [10^+]:
+[CRITICAL]: Could not open file "load/011/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [10^+] ends at the wrong interface! Initial path for [10^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/011 does not satisfy the relative ensemble (11) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1159, and 0.1202.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1159
+[INFO]: Crossed middle interface: 0.11565898149300807 -> 0.11608617488745177 | 0.1159
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [10^+]
+[INFO]: Path with length 32 (max: 10000)
+        Order parameter max: (0.11656521763612518, 15)
+        Order parameter min: (0.11068509929017521, 0)
+        Start 0.11068509929017521
+        End 0.11080418053657214
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/011/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/011/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/011/energy.txt"
+[INFO]: Loading data for path path ensemble [11^+]:
+[CRITICAL]: Could not open file "load/012/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [11^+] ends at the wrong interface! Initial path for [11^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/012 does not satisfy the relative ensemble (12) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1163, and 0.1202.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1163
+[INFO]: Crossed middle interface: 0.11539497389401326 -> 0.117021365570566 | 0.1163
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [11^+]
+[INFO]: Path with length 16 (max: 10000)
+        Order parameter max: (0.11702133098377372, 14)
+        Order parameter min: (0.11084209705163206, 0)
+        Start 0.11084209705163206
+        End 0.11097008035272773
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/012/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/012/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/012/energy.txt"
+[INFO]: Loading data for path path ensemble [12^+]:
+[CRITICAL]: Could not open file "load/013/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [12^+] ends at the wrong interface! Initial path for [12^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/013 does not satisfy the relative ensemble (13) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1167, and 0.1202.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1167
+[INFO]: Crossed middle interface: 0.11547294055318745 -> 0.11734138229968138 | 0.1167
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [12^+]
+[INFO]: Path with length 37 (max: 10000)
+        Order parameter max: (0.11734136446830395, 14)
+        Order parameter min: (0.1108778632717327, 0)
+        Start 0.1108778632717327
+        End 0.11092137286620786
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/013/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/013/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/013/energy.txt"
+[INFO]: Loading data for path path ensemble [13^+]:
+[CRITICAL]: Could not open file "load/014/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [13^+] ends at the wrong interface! Initial path for [13^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/014 does not satisfy the relative ensemble (14) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1172, and 0.1202.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1172
+[INFO]: Crossed middle interface: 0.11715374513859954 -> 0.11720494870098269 | 0.1172
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [13^+]
+[INFO]: Path with length 28 (max: 10000)
+        Order parameter max: (0.11844454735838149, 20)
+        Order parameter min: (0.11063833818401769, 27)
+        Start 0.11099122781936839
+        End 0.11063833818401769
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/014/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/014/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/014/energy.txt"
+[INFO]: Loading data for path path ensemble [14^+]:
+[CRITICAL]: Could not open file "load/015/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [14^+] ends at the wrong interface! Initial path for [14^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/015 does not satisfy the relative ensemble (15) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1178, and 0.1202.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1178
+[INFO]: Crossed middle interface: 0.11749893616539712 -> 0.11788553770501291 | 0.1178
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [14^+]
+[INFO]: Path with length 29 (max: 10000)
+        Order parameter max: (0.11970041024378651, 16)
+        Order parameter min: (0.11064998444694772, 0)
+        Start 0.11064998444694772
+        End 0.11071506867582105
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/015/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/015/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/015/energy.txt"
+[INFO]: Loading data for path path ensemble [15^+]:
+[CRITICAL]: Could not open file "load/016/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [15^+] ends at the wrong interface! Initial path for [15^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/016 does not satisfy the relative ensemble (16) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1185, and 0.1202.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1185
+[INFO]: Crossed middle interface: 0.1163700992523423 -> 0.11935660853090622 | 0.1185
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [15^+]
+[INFO]: Path with length 34 (max: 10000)
+        Order parameter max: (0.11935660496731636, 16)
+        Order parameter min: (0.10990147665633307, 0)
+        Start 0.10990147665633307
+        End 0.11042878349634552
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/016/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/016/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/016/energy.txt"
+[INFO]: Loading data for path path ensemble [16^+]:
+[CRITICAL]: Could not open file "load/017/energy.txt" for reading
+[CRITICAL]: I/O error ({2}): {No such file or directory}
+[INFO]: Sorting input files
+[CRITICAL]: Initial path for [16^+] ends at the wrong interface! Initial path for [16^+] does not cross the middle interface!
+[INFO]: Path stored in load folder load/017 does not satisfy the relative ensemble (17) definition. 
+         The given path has a min of 0.110961 and a max of 0.114086 while the relative interface are located at 0.111, 0.1193, and 0.1202.
+        Initialising load_and_kick procedure.
+[INFO]: Will generate initial path by kicking
+[INFO]: Searching crossing with middle interface
+[INFO]: Kicking with external integrator: GROMACS engine
+[INFO]: Searching for crossing with:    0.1193
+[INFO]: Crossed middle interface: 0.11866338946785564 -> 0.1196703806294604 | 0.1193
+[INFO]: Propagating from crossing points
+[INFO]: Propagating forward from crossing points for initial path
+[INFO]: Found initial path for [16^+]
+[INFO]: Path with length 31 (max: 10000)
+        Order parameter max: (0.1196703465931405, 16)
+        Order parameter min: (0.11020996218395876, 30)
+        Start 0.11060118956915176
+        End 0.11020996218395876
+        Status: The path has been accepted
+        Generated: Path was generated by integration after kicking
+        Weight: 1.0
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/017/pathensemble.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/017/order.txt"
+[INFO]: Appending to existing file "/home/ula/pyretis_run/project_masters/retis_fbaeps_longer/retis_fbaeps_v2/retis_fbaeps/017/energy.txt"
+[INFO]: Initiation done. Starting retis simulation. 
+[INFO]:  retis step. Cycle 1
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110835, 6
+[INFO]: The move was rejected! (KOB)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114086, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113446, 4
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111046, 20
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111616, 5
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113057, 25
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110835, 27
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112323, 13
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113739, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114983, 13
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112405, 13
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112600, 13
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.115395, 13
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111623, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111522, 13
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.117499, 13
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114099, 13
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.115080, 13
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 2
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110961, 7
+[INFO]: The move was rejected! (KOB)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111148, 9
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111155, 2
+[INFO]: The move was rejected! (KOB)
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111360, 2
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114183, 5
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111046, 20
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110252, 16
+[INFO]: The move was rejected! (KOB)
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112707, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113739, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.115642, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111966, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112611, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112032, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113941, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112149, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112103, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111189, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114482, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 3
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110957, 3
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111573, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113208, 4
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112412, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111938, 2
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110709, 11
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113446, 4
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112946, 4
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114983, 2
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111829, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112080, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112843, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113055, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111594, 20
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111413, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114261, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113380, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114699, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 4
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110896, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111573, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113208, 2
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112412, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113514, 5
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112101, 3
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112208, 2
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111096, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113248, 3
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111829, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.115166, 19
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111840, 20
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113055, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113075, 24
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.118445, 20
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111942, 20
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.116025, 20
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112912, 20
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 5
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [6^+] <-> [7^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [8^+] <-> [9^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [10^+] <-> [11^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [12^+] <-> [13^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [14^+] <-> [15^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [16^+]
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 6
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [7^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [8^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [9^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [10^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [11^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [12^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was rejected! (BWI)
+[INFO]: TIS move in: [13^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [14^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [15^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [16^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]:  retis step. Cycle 7
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [5^+] <-> [6^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [7^+] <-> [8^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [9^+] <-> [10^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [11^+] <-> [12^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [13^+] <-> [14^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [15^+] <-> [16^+]
+[INFO]: Swap was accepted.
+[INFO]:  retis step. Cycle 8
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [5^+] <-> [6^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [7^+] <-> [8^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [9^+] <-> [10^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [11^+] <-> [12^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [13^+] <-> [14^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [15^+] <-> [16^+]
+[INFO]: Swap was accepted.
+[INFO]:  retis step. Cycle 9
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110896, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.115980, 5
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113105, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112953, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113288, 7
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111807, 4
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113050, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113739, 3
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113163, 5
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.115742, 7
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112503, 5
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114642, 5
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112898, 5
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113229, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111637, 25
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111946, 5
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111539, 5
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112729, 5
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 10
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [5^+] <-> [6^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [7^+] <-> [8^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [9^+] <-> [10^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [11^+] <-> [12^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [13^+] <-> [14^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [15^+] <-> [16^+]
+[INFO]: Swap was accepted.
+[INFO]:  retis step. Cycle 11
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [7^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [8^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [9^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [10^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [11^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [12^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was rejected! (BWI)
+[INFO]: TIS move in: [13^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [14^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [15^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [16^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]:  retis step. Cycle 12
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [6^+] <-> [7^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [8^+] <-> [9^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [10^+] <-> [11^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [12^+] <-> [13^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [14^+] <-> [15^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [16^+]
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 13
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [6^+] <-> [7^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [8^+] <-> [9^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [10^+] <-> [11^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [12^+] <-> [13^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [14^+] <-> [15^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [16^+]
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 14
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [6^+] <-> [7^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [8^+] <-> [9^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [10^+] <-> [11^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [12^+] <-> [13^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [14^+] <-> [15^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [16^+]
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 15
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110896, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112412, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113208, 4
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112539, 3
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113105, 3
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111238, 4
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114284, 7
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113464, 13
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112466, 13
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113163, 9
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111978, 9
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112561, 9
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111550, 9
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112671, 2
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113229, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111946, 25
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112729, 25
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113693, 25
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 16
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [6^+] <-> [7^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [8^+] <-> [9^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [10^+] <-> [11^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [12^+] <-> [13^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [14^+] <-> [15^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [16^+]
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 17
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [6^+] <-> [7^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [8^+] <-> [9^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [10^+] <-> [11^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [12^+] <-> [13^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [14^+] <-> [15^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [16^+]
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 18
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110896, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112098, 4
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112374, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113978, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113105, 3
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113819, 9
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111124, 6
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112056, 24
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112670, 7
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114057, 11
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111678, 11
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111423, 11
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112345, 11
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113075, 24
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114152, 3
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111972, 27
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.115820, 27
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.116125, 27
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 19
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [7^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [8^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [9^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [10^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [11^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [12^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [13^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was rejected! (BWI)
+[INFO]: TIS move in: [14^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [15^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [16^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]:  retis step. Cycle 20
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [6^+] <-> [7^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [8^+] <-> [9^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [10^+] <-> [11^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [12^+] <-> [13^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [14^+] <-> [15^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [16^+]
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 21
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110896, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113865, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112956, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113105, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112539, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111306, 2
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111932, 23
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113785, 15
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111484, 18
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111111, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111829, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113229, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112561, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113054, 4
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112779, 18
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112445, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112328, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113693, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 22
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [6^+] <-> [7^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [8^+] <-> [9^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [10^+] <-> [11^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [12^+] <-> [13^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [14^+] <-> [15^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [16^+]
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 23
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110896, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111692, 2
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113208, 2
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111485, 2
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113105, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112281, 7
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112102, 8
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112620, 14
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113240, 6
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113400, 9
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112988, 9
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111101, 9
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112319, 9
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112653, 14
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113229, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112707, 25
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111166, 25
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112753, 25
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 24
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110896, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113943, 3
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112659, 3
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111087, 2
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113151, 3
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112939, 6
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111325, 3
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111482, 21
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112869, 9
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111096, 10
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114983, 10
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112546, 10
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112274, 10
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111910, 21
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.118347, 2
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114261, 26
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114699, 26
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111947, 26
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 25
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [5^+] <-> [6^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [7^+] <-> [8^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [9^+] <-> [10^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [11^+] <-> [12^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [13^+] <-> [14^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [15^+] <-> [16^+]
+[INFO]: Swap was accepted.
+[INFO]:  retis step. Cycle 26
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110896, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111464, 8
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112945, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112659, 3
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112053, 2
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112878, 9
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113471, 52
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111226, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111096, 10
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111169, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114983, 10
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112546, 10
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111532, 6
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112274, 10
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111942, 10
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.116007, 10
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114315, 10
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112912, 10
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 27
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [7^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [8^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [9^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [10^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [11^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [12^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [13^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [14^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [15^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [16^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]:  retis step. Cycle 28
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [7^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [8^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [9^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [10^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [11^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [12^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [13^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [14^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [15^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [16^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]:  retis step. Cycle 29
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [5^+] <-> [6^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [7^+] <-> [8^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [9^+] <-> [10^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [11^+] <-> [12^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [13^+] <-> [14^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [15^+] <-> [16^+]
+[INFO]: Swap was accepted.
+[INFO]:  retis step. Cycle 30
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [6^+] <-> [7^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [8^+] <-> [9^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [10^+] <-> [11^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [12^+] <-> [13^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [14^+] <-> [15^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [16^+]
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 31
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [5^+] <-> [6^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [7^+] <-> [8^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [9^+] <-> [10^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [11^+] <-> [12^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [13^+] <-> [14^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [15^+] <-> [16^+]
+[INFO]: Swap was accepted.
+[INFO]:  retis step. Cycle 32
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [5^+] <-> [6^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [7^+] <-> [8^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [9^+] <-> [10^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [11^+] <-> [12^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [13^+] <-> [14^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [15^+] <-> [16^+]
+[INFO]: Swap was accepted.
+[INFO]:  retis step. Cycle 33
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [5^+] <-> [6^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [7^+] <-> [8^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [9^+] <-> [10^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [11^+] <-> [12^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [13^+] <-> [14^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [15^+] <-> [16^+]
+[INFO]: Swap was accepted.
+[INFO]:  retis step. Cycle 34
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [7^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [8^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [9^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [10^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [11^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [12^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [13^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [14^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [15^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [16^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]:  retis step. Cycle 35
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110838, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114355, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111224, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111865, 9
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113151, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114103, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114985, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114042, 6
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.115642, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.115375, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112032, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111346, 6
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113514, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.117101, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111623, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112157, 17
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112761, 17
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111017, 17
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 36
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110838, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114355, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113875, 12
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113125, 5
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113151, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113578, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114985, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113715, 18
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.115642, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.115278, 2
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112032, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112016, 16
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113798, 15
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.117101, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112852, 25
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112521, 16
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.115235, 31
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.119670, 16
+[INFO]: The move was accepted!
+[INFO]:  retis step. Cycle 37
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [5^+] <-> [6^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [7^+] <-> [8^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [9^+] <-> [10^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [11^+] <-> [12^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [13^+] <-> [14^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [15^+] <-> [16^+]
+[INFO]: Swap was accepted.
+[INFO]:  retis step. Cycle 38
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110838, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114355, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112083, 6
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112391, 12
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112750, 4
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113428, 2
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114574, 12
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111430, 9
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.115278, 2
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111978, 9
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111859, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111550, 9
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113514, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114859, 9
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111532, 30
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112620, 19
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113549, 19
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111189, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 39
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [6^+] <-> [7^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [8^+] <-> [9^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [10^+] <-> [11^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [12^+] <-> [13^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [14^+] <-> [15^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [16^+]
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 40
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [6^+] <-> [7^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [8^+] <-> [9^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [10^+] <-> [11^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [12^+] <-> [13^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [14^+] <-> [15^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [16^+]
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 41
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110838, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114355, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112612, 17
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111031, 9
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113578, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112497, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112397, 12
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111319, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113704, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111829, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111859, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.117021, 14
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112561, 9
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111791, 14
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111910, 15
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111784, 18
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113156, 18
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113693, 25
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 42
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [6^+] <-> [7^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [8^+] <-> [9^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [10^+] <-> [11^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [12^+] <-> [13^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [14^+] <-> [15^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [16^+]
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 43
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^+] <-> [1^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [2^+] <-> [3^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [4^+] <-> [5^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [6^+] <-> [7^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [8^+] <-> [9^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [10^+] <-> [11^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [12^+] <-> [13^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [14^+] <-> [15^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Null move for: [16^+]
+[INFO]: Null move for: [0^-]
+[INFO]:  retis step. Cycle 44
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110838, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114355, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111713, 3
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111909, 5
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114040, 2
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113532, 3
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112938, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112881, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.115278, 2
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111502, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111859, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112779, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113739, 14
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114365, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112671, 2
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111942, 20
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112091, 20
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111970, 30
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 45
+[INFO]: Performing RETIS swapping move(s).
+[INFO]: Swapping: [0^-] <-> [0^+]
+[INFO]: Swapping: [1^+] <-> [2^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [3^+] <-> [4^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [5^+] <-> [6^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [7^+] <-> [8^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [9^+] <-> [10^+]
+[INFO]: Swap was accepted.
+[INFO]: Swapping: [11^+] <-> [12^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [13^+] <-> [14^+]
+[INFO]: Swap was rejected. (NCR)
+[INFO]: Swapping: [15^+] <-> [16^+]
+[INFO]: Swap was accepted.
+[INFO]:  retis step. Cycle 46
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [7^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [8^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [9^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [10^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [11^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [12^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [13^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [14^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [15^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [16^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]:  retis step. Cycle 47
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110838, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114355, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111499, 2
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112232, 2
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112554, 3
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113962, 3
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112806, 12
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113246, 10
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114983, 10
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113376, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112274, 10
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112016, 1
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [11^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111953, 15
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [12^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.116007, 10
+[INFO]: The move was rejected! (FTL)
+[INFO]: TIS move in: [13^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111954, 33
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [14^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112445, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [15^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114201, 15
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [16^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112091, 8
+[INFO]: The move was rejected! (NCR)
+[INFO]:  retis step. Cycle 48
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [1^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [3^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [5^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [7^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [8^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [9^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [10^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [11^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [12^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [13^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [14^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [15^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [16^+]
+[INFO]: Performing a time reversal move
+[INFO]: The move was accepted!
+[INFO]:  retis step. Cycle 49
+[INFO]: Performing RETIS TIS move(s)
+[INFO]: TIS move in: [0^-]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.110838, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [0^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114355, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [1^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111379, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [2^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112720, 3
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [3^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111777, 10
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [4^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112750, 4
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [5^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112537, 7
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [6^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114985, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [7^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.114477, 1
+[INFO]: The move was accepted!
+[INFO]: TIS move in: [8^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.113704, 1
+[INFO]: The move was rejected! (BTL)
+[INFO]: TIS move in: [9^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.112032, 1
+[INFO]: The move was rejected! (NCR)
+[INFO]: TIS move in: [10^+]
+[INFO]: Selecting the shooting move.
+[INFO]: Performing a shooting move
+[INFO]: Shooting from order parameter/index: 0.111472, 10
